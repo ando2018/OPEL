@@ -1,0 +1,31 @@
+<div>
+    <form [formGroup]="form" (submit)="update()">
+        <div class="form">
+            <label>Véhicule
+                <span class="msg-error" *ngIf="invalidUrl('vehicleIframeUrl')">L'URL pour véhicule doit commencer par 'https://www.opel.fr/vehicules/'</span>
+                <span class="msg-error" *ngIf="notUrl('vehicleIframeUrl')">URL invalide</span>
+            </label>
+            <input placeholder="Véhicule" formControlName="vehicleIframeUrl" [class.error]="form.get('vehicleIframeUrl').dirty && !form.get('vehicleIframeUrl').valid"
+                type="text" />
+        </div>
+        <div class="form">
+            <label >Configurateur
+                <span class="msg-error" *ngIf="invalidUrl('configuratorIframeUrl')">L'URL pour configurateur doit commencer par 'https://www.opel.fr/vehicules/'</span>
+                <span class="msg-error" *ngIf="notUrl('configuratorIframeUrl')">URL invalide</span>
+            </label>
+            <input placeholder="Configurateur" formControlName="configuratorIframeUrl" [class.error]="form.get('configuratorIframeUrl').dirty && !form.get('configuratorIframeUrl').valid"
+                type="text" />
+        </div>
+        <div class="form">
+            <label >Accessoires
+                <span class="msg-error" *ngIf="invalidUrl('accesoriesIframeUrl')">L'URL pour accessoires doit commencer par 'https://www.opel-accessories.com/opel_aoc/'</span>
+                <span class="msg-error" *ngIf="notUrl('accesoriesIframeUrl')">URL invalide</span>
+            </label>
+            <input placeholder="Accessoire" formControlName="accesoriesIframeUrl" [class.error]="form.get('accesoriesIframeUrl').dirty && !form.get('accesoriesIframeUrl').valid"
+                type="text" />
+        </div>
+        <div class="btn-right">
+            <button class="arrow" type="submit" [disabled]="!form.valid" [class.button-disabled]="!form.valid">Sauver</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    padding: 0;
+    height: auto;
+    overflow-y: auto !important;
+    text-align: left;
+    font-weight: 500;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.line{
+    display: flex;
+    margin-bottom: 5px;
+}
+.line div{
+    min-width: auto;
+    margin-right: 5px;
+}
+.line div:first-child{
+    font-weight: 500;
+}
+
+.cnt-button {
+    padding-top: 20px;
+}
+button {
+    width: 160px;
+    border: none;
+    border: 0;
+    cursor: pointer;
+    height: 38px;
+    background: #f7d900;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0;
+    margin-right: 15px;
+}

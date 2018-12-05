@@ -1,0 +1,11 @@
+<div class="container" *ngIf="configured">
+    <app-carrousel></app-carrousel>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+</div>
+
+<div *ngIf="!configured" class="not-configured">
+    <h4>Cette borne n'est pas encore configurée.</h4>
+    <br><br><br>
+    <a routerLink="/configuration">Configurez maintenant.</a>
+</div>

@@ -1,0 +1,154 @@
+.error {
+    border-bottom: solid 4px orangered !important;
+}
+
+.filename {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.list ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.list ul li {
+    list-style: none;
+    width: 23%;
+    position: relative;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 5px;
+    margin-right: 12px;
+    text-align: center;
+}
+.list ul li.no-img{
+    width: 100%;
+}
+
+
+.list ul li img {
+    max-width: 100%;
+    width: auto;
+}
+
+.option {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+
+.option a img {
+    width: auto !important;
+    max-width: 20px !important;
+}
+
+.option a {
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background: #afb1b1;
+    margin-left: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+li:hover .option a {
+    display: flex;
+}
+
+.option a:hover {
+    background: #f7d900;
+}
+
+/* FORM:  */
+.form .lab {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    /* display: flex; */
+    height: 37px;
+    box-sizing: border-box;
+}
+
+.form input {
+    background: transparent;
+    width: 100%;
+    color: #000;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 4px #f7d900 solid;
+    padding: 5px 20px;
+    font-family: 'opel sans condensed';
+    box-sizing: border-box;
+    height: 35px;
+}
+.cnt-button {
+    padding-top: 20px;
+}
+button,
+label.btn {
+    width: 150px;
+    border: none;
+    border: 0;
+    cursor: pointer;
+    height: 38px;
+    width: 100px;
+    background: #f7d900;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0;
+    margin-right: 15px;
+}
+button:hover,
+label.btn:hover,
+.button-disabled {
+    background: #ccc;
+}
+
+.form .model-add-slide {
+    display: flex;
+}
+.form .model-add-slide label.btn {
+    background: #f7d900;
+    display: flex;
+    width: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    border: 0;
+    padding: 1px 5px;
+    box-sizing: border-box;
+}
+.form .model-add-slide label.btn:hover {
+    background: #ccc;
+}
+
+.deleted {
+    opacity: 0.2;
+}
+
+.visualerror{
+    border: solid 4px orangered !important;
+}
+
+.label-error{
+    padding-right: 10px!important;
+}

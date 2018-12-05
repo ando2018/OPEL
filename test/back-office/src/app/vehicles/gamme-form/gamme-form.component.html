@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="form">
+        <form (submit)="formValidation() &&  form.valid && saveGamme(form.value)" [formGroup]="form">
+            <div class="name">
+                <h1>Nouvelle Gamme</h1>
+                <label for="username" class="required">Nom</label>
+                <small class="label-error" class="label-error" *ngIf=" isRequired('name')">
+                    <p *ngIf="form.get('name').errors.required">(requis)</p>
+                    <p *ngIf="form.get('name').errors.maxlength">(longueur maximale 200 caractères)</p>
+                </small>
+                <input formControlName="name" type="text" [class.error]="isRequired('name')">
+            </div>
+            <div class="cnt-button">
+                <button class="arrow" type="submit" [class.button-disabled]="!this.form.valid">
+                    <span>
+                        Sauver
+                    </span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,156 @@
+.container {
+    width: 100%;
+    overflow: auto;
+    height: calc(100vh - 90px);
+    padding: 15px 0;
+}
+
+h1 {
+    font-size: 20px;
+    width: auto;
+}
+
+.list ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.list ul li {
+    list-style: none;
+    width: 23%;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+.list ul li img {
+    width: 100%;
+}
+
+.option {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    position: absolute;
+    top: 3px;
+    right: 11px;
+    z-index: 2;
+}
+
+.option a img {
+    width: auto !important;
+}
+
+.option a {
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background: #fff;
+    margin-left: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+li:hover .option a,
+li.deleted .option a {
+    display: flex;
+}
+
+.option a:hover {
+    background: #f7d900;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form input {
+    width: 89%;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 5px #f7d900 solid;
+    padding: 10px 20px;
+    font-family: 'opel sans condensed';
+    padding-right: 0;
+}
+
+.button {
+    width: 100px !important;
+    border: none !important;
+    border: 0;
+    cursor: pointer;
+    height: 38px;
+    width: 100px;
+    background: #f7d900;
+    color: #000;
+    font-size: 20px !important;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.label-error p{
+    margin: 0px!important;
+}
+
+button:hover,
+.button-disabled {
+    background: #ccc;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+a img {
+    height: 20px;
+}
+
+.no-offer {
+    width: 600px !important;
+}
+.input {
+    position: relative;
+    width: 60%;
+}
+
+.delete {
+    opacity: 0.2;
+}
+
+.error {
+    border-bottom: solid 4px orangered !important;
+}
+
+.month-error {
+    border: solid 2px orangered !important;
+    border-radius: 7px;
+}
+.remove {
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    background: #afb1b1;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.arrow{
+    width: 120px!important;
+}

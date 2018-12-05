@@ -1,0 +1,9 @@
+<div class="main-container slide-offre">
+    <div class="swiper-wrapper">
+        <swiper [config]="swiperConfig" (indexChange)="indexChange($event)" [(index)]="currentIndex" >
+            <div class="swiper-slide" *ngFor="let img of slides">
+                <img [src]="img.src" [alt]="img.title">
+            </div>
+        </swiper>
+    </div>
+</div>

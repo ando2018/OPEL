@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="line">
+        <div>Carburant: </div>
+        <div>{{model.environment.carburant}}</div>
+    </div>
+    <div class="line">
+        <div>CO2: </div>
+        <div>{{model.environment.co2}}</div>
+    </div>
+    <div class="line">
+        <div>Consommation mixte:</div>
+        <div>{{model.environment.mixte}}</div>
+    </div>
+    <div class="line">
+        <div>Consommation urbaine:</div>
+        <div>{{model.environment.urban}}</div>
+    </div>
+    <div class="line">
+        <div>Consommation extra urbaine:</div>
+        <div>{{model.environment.extraUrban}}</div>
+    </div>
+    <div class="cnt-button btn-right">
+        <button class="modif arrow" [routerLink]="['../../../edit', model._id, 'co2-consumption']">Modifier</button>
+    </div>
+</div>

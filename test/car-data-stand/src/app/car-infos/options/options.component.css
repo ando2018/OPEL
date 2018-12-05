@@ -1,0 +1,16 @@
+.container {
+    width: 1080px;
+    height: auto;
+    padding: 35px 30px;
+    height: 961px;
+    position: fixed;
+    /*top: 830px;*/
+    overflow-y: auto !important;
+    background: #fff;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+h2 {
+    display: table;
+}

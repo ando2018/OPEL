@@ -1,0 +1,10 @@
+<div class="container-video">
+    <div class="link-back">
+        <span (click)="back()">Retour à la liste</span>
+    </div>
+    <div class="content-video" *ngIf="video">
+        <video [controls]="false" [autoplay]="false" name="media">
+            <source [src]="video.src" type="video/mp4">
+        </video>
+    </div>
+</div>

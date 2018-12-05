@@ -1,0 +1,54 @@
+[
+    {
+        "_id": {
+            "$oid": "5b28f1c69d93513b347ffd1b"
+        },
+        "name": "INSIGNIA<br>SPORTS TOURER Elite",
+        "description": "2.0D 170 ch BLUEINJECTION",
+        "price": 42590,
+        "options": [
+            "Peinture métalisée Bleu Lune Marine",
+            "Cuir ventilé AGR conducteur et passager Sienna Anthracite",
+            "Pack Silence",
+            "Toit ouvrant panoramique électrique",
+            "Roue de secours de taille réduite 17\" avec pneus T125/70 R17",
+            "Pack Haute Vision"
+        ],
+        "vehiculeId": "5b24cd0c41cc840019f0347f",
+        "visuals": [
+            "Opel_Insignia_Sports_Tourer_Essentia_21x9_mrm.png",
+            "img2.png",
+            "img3.png",
+            "img4.png"
+        ],
+        "technicalDatas": {
+            "externalDimensions": {
+                "schema": "OPEL_INSIGNA_.png",
+                "empattement": 2829,
+                "totalLength": 4986,
+                "emptyHeight": 1500,
+                "widthWithMirror": 2093,
+                "widthWithoutMirror": 1941,
+                "turningRadius": 11.74
+            },
+            "internalDimensions": {
+                "loadingVolume": "560 - 1665"
+            },
+            "weightLoad": {
+                "weight": "1487 - 1633",
+                "tank": 62,
+                "maxWeightBrakedTrailer": "1405 - 2200",
+                "maxWeightNoBrakedTrailer": "730 - 750",
+                "totalWeightAllowed": "2060 - 2295"
+            }
+        },
+        "environment": {
+            "carburant": "Diesel",
+            "c02": "139 g/Km (159 - 162)",
+            "urban": "NC",
+            "extraUrban": "NC",
+            "mixte": "5,3l / 100km",
+            "image": "step.png"
+        }
+    }
+]

@@ -1,0 +1,128 @@
+<div class="container">
+    <div>
+        <div class="details">
+            <!-- {{_model?.price}} -->
+            <h1>INSIGNIA SPORTS TOURER Elite
+                <br> 2.0 d 170ch BLUEINJECTION
+            </h1>
+            <div class="performance">
+                <ul>
+                    <li>
+                        <span>Vitesse maximale (sur circuit) :</span>
+                        <span>0 km/h</span>
+                    </li>
+                    <li>
+                        <span>Accélération 0-100 km/h :</span>
+                        <span>8s</span>
+                    </li>
+                    <li>
+                        <span>Consommation mixte :</span>
+                        <span>5.3l/100km</span>
+                    </li>
+                    <li>
+                        <span>Consommation de CO2 :</span>
+                        <span>139 g/km</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span>Puissance administrative :</span>
+                        <span>9CV</span>
+                    </li>
+                    <li>
+                        <span>Puissance réelle :</span>
+                        <span>170Ch</span>
+                    </li>
+                    <li>
+                        <span>Cylindres :</span>
+                        <span>4</span>
+                    </li>
+                    <li>
+                        <span>Carburant :</span>
+                        <span>Diesel</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="info">
+                <h3>Principaux équipements de serie:</h3>
+                <ul>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="info">
+                <h3>
+                    <span>Sellerie, couleur et options de modèle présente:</span>
+                    <span class="ttc">(TTC)</span>
+                </h3>
+                <ul>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="info">
+                <h3>
+                    <span>Prix du modèle hors options:</span>
+                    <span class="option">39 200 €</span>
+                </h3>
+                <ul>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="info">
+                <h3>
+                    <span>Prix du modèle exposé:</span>
+                    <span class="price">{{model?.price}} €</span>
+                </h3>
+                <ul>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                    <li>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <span>700 €</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cnt-button btn-right">
+            <button class="modif arrow" [routerLink]="['../../../edit', model?._id, 'prices']">Modifier</button>
+        </div>
+    </div>
+</div>

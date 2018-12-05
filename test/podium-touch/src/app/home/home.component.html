@@ -1,0 +1,52 @@
+<div class="content">
+    <div class="slider" [ngClass]="{
+        'vehicles': activeSlideIndex === 0,
+        'configurator' : activeSlideIndex === 1,
+        'accessories' : activeSlideIndex === 2,
+        'videos' : activeSlideIndex === 3,
+        'offers' : activeSlideIndex === 4,
+        'brochure' : activeSlideIndex === 5
+    }">
+        <swiper [(index)]="activeSlideIndex" (indexChange)="emitEvent(activeSlideIndex)">
+            <div *ngFor="let menu of menus; let i = index" class="swiper-slide" [routerLink]="menu.navigateTo">
+                <img [src]="menu.background.src" [alt]="menu.background.title">
+                <div class="txt-slide" (click)="toMenu(i, zoneText)">
+                    <h2 class="slide-title">
+                        <a>{{ menu.title}}</a>
+                    </h2>
+                    <p [innerHTML]="menu.tip"></p>
+                </div>
+            </div>
+        </swiper>
+    </div>
+    <div class="nav-slide" [ngClass]="{
+                    'vehicles': activeSlideIndex === 0,
+                    'configurator' : activeSlideIndex === 1,
+                    'accessories' : activeSlideIndex === 2,
+                    'videos' : activeSlideIndex === 3,
+                    'offers' : activeSlideIndex === 4,
+                    'brochure' : activeSlideIndex === 5
+                }">
+        <ul>
+            <li *ngFor="let menu of menus; let i = index" class="navs-item-wrapper" [class.active]="activeSlideIndex === i">
+                <div class="cnt-tab">
+                    <span class="icon">
+                        <img (click)="toMenu(i, button)" [src]="menu.icon.src" [alt]="menu.icon.title">
+                    </span>
+
+                    <div class="cnt-nav-slide" [routerLink]="menu.navigateTo">
+                        <h2 class="slide-title" (click)="toMenu(i, zoneText)">
+                            <a>{{ menu.title}}</a>
+                        </h2>
+                        <p (click)="toMenu(i, zoneText)" [innerHTML]="menu.tip"></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<footer>
+    <a routerLink="/home" class="logo">
+        <img src="assets/img/logo-b.png" alt="Opel" />
+    </a>
+</footer>

@@ -1,0 +1,225 @@
+/* .container {
+    width: 1080px;
+    padding: 35px 30px;
+    height: 961px;
+    position: fixed;
+    /*top: 830px;
+    overflow-y: auto !important;
+    background: #fff;
+    text-align: center;
+}
+
+.container img{
+    width: 64%;
+}*/
+.container {
+    width: 880px;
+    padding: 10px 0 5px;
+    height: 960px;
+    position: fixed;
+    top: 0;
+    overflow-y: auto !important;
+    background: #fff;
+    text-align: left;
+    font-weight: 800;
+    margin: 0 100px;
+}
+
+.container img{
+    width: 64%;
+}
+
+.title{
+    padding-bottom: 10px;
+    border-bottom: #3fb696 solid 4px;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    position: relative;
+}
+
+
+.title span{
+    font-size: 10px;
+}
+
+.vehicule{
+    padding: 10px;
+}
+.vehicule ul li{
+    font-size: 20px;
+}
+
+.up{
+    font-family: 'Opel Sans Condensed ExtraBold';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.consommation,.dioxyde{
+    display: flex;
+}
+
+.carbu{
+    font-size: 30px;
+    width: 40%;
+    padding: 20px 10px;
+    border: #3fb696 solid 4px;
+    border-left: none;
+    font-weight: 800;
+}
+
+.carbu span{
+    font-size: 10px;
+    display: block;
+    margin-top: 25px;
+}
+
+.detail{
+    padding: 10px;
+    font-size: 18px;
+    border: #3fb696 solid 4px;
+    border-left:0;
+    border-right:0;
+    width: 60%;
+}
+
+.mnombre{
+    display: block;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.unit{
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.illustr{
+    width: 39.6%;
+    padding: 10px;
+    border-bottom: #3fb696 solid 4px;
+}
+
+.co{
+  font-size: 30px;
+  font-weight: 800;
+  float: left;
+}
+
+
+.expl{
+    font-size: 10px;
+    display: block;
+    margin: 10px 0;
+}
+
+.repere{
+    font-size: 20px;
+}
+
+.indication li{
+    height: 36px;
+    font-size: 15px;
+    align-content: center;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 0;
+
+}
+
+.indication li:first-child{
+    background:url('/assets/img/1.png') left no-repeat;
+    line-height: 12px;
+}
+.indication li:nth-child(2){
+    background:url('/assets/img/2.png') left no-repeat;
+}
+.indication li:nth-child(3){
+    background:url('/assets/img/3.png') left no-repeat;
+}
+.indication li:nth-child(4){
+    background:url('/assets/img/4.png') left no-repeat;
+}
+.indication li:nth-child(5){
+    background:url('/assets/img/5.png') left no-repeat;
+}
+.indication li:nth-child(6){
+    background:url('/assets/img/6.png') left no-repeat;
+}
+.indication li:nth-child(7){
+    background:url('/assets/img/7.png') left no-repeat;
+}
+
+.result{
+    width: 60%;
+    border: #3fb696 solid 4px;
+    border-top: 0;
+    border-right: 0;
+    padding: 10px;
+}
+.value{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.indication_value{
+    margin-top: 40px;
+}
+
+.indication_value li{
+    display: block;
+    opacity: 1;
+    height: 72px;
+    width: 250px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 0;
+    background: none left no-repeat;
+    background-size: cover;
+}
+
+.indication_value li.indication_value_1{
+    background-image: url('/assets/img/indication-1.png');
+    margin-top: 0;
+}
+.indication_value li.indication_value_2{
+    background-image: url('/assets/img/indication-2.png');
+    margin-top: 78px;
+}
+.indication_value li.indication_value_3{
+    background-image: url('/assets/img/indication-c.png');
+    margin-top: 120px;
+}
+.indication_value li.indication_value_4{
+    background-image: url('/assets/img/indication-4.png');
+    margin-top: 162px;
+}
+.indication_value li.indication_value_5{
+    background-image: url('/assets/img/indication-5.png');
+    margin-top: 202px;
+}
+.indication_value li.indication_value_6{
+    background-image: url('/assets/img/indication-6.png');
+    margin-top: 244px;
+}
+.indication_value li.indication_value_7{
+    background-image: url('/assets/img/indication-7.png');
+    margin-top: 286px;
+}
+
+
+p{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+p a{
+    color: #1b56a5;
+}

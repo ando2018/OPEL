@@ -1,0 +1,15 @@
+<div class="container" *ngIf="!showPriceDetails && !showBrochureRequestSent">
+    <div class="info-g" *ngIf="carInfos">
+        <div class="marque">
+            <span class="type" [innerHTML]="carInfos.name"></span>
+            <span class="config">{{ carInfos.description }}</span>
+        </div>
+        <div class="price" (click)="clickPrice()" routerLink="price-details">
+            <div class="httc">
+                <span class="value">{{ (configuration.shownPrice || configuration.totalPrice || carInfos.price) | number:'2.0-0':'fr' }}</span>
+                <span class="unity"></span>
+                <span class="text">prix du modèle exposé</span>
+            </div>
+        </div>
+    </div>
+</div>

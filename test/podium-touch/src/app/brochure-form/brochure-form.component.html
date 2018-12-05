@@ -1,0 +1,42 @@
+<div class="main-container">
+    <div class="brochure-container" *ngIf="vehicle">
+
+        <div class="brochure-header">
+            <!--<div class="retour">
+                <span routerLink="/pages/brochure">RETOUR</span>
+            </div>-->
+
+            <h1>{{ vehicle?.brochureName }}</h1>
+            <p>Renseignez votre adresse mail afin de recevoir la brochure du véhicule ou scannez le code ci-dessous à l'aide
+                de votre smartphone.</p>
+        </div>
+
+        <div *ngIf="loading" class="cnt-loader">
+            <div class="q-loader q-flyout-spinner" style="display: block;"></div>
+        </div>
+
+        <div class="cnt-form" *ngIf="!loading">
+            <img class="form-background" *ngIf="vehicle.brochureWallpaper" [src]="vehicle.brochureWallpaper" alt="">
+
+            <div class="brochure-form">
+                <h2>Complétez votre email ou scannez le code</h2>
+
+                <form [formGroup]="emailForm" (submit)="submit(emailForm.value)">
+                    <input type="text" formControlName="email" placeholder="E-mail*" [class.error]="!emailForm.get('email').valid && (emailForm.get('email').touched || showErrors)">
+                    <input type="submit" value="Valider">
+                </form>
+
+                <div class="content-code">
+                    <div class="scan">
+                        <div class="img-scan">
+                            <qrcode [qrdata]="qrCodeSrc" [size]="'256'" [level]="'M'"></qrcode>
+                        </div>
+                        <span class="text">
+                            Scan me
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

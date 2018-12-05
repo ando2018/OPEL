@@ -1,0 +1,10 @@
+<div class="container">
+    <app-loader *ngIf="loading"></app-loader>
+
+    <div class="option" *ngIf="!loading">
+        <h2>Options</h2>
+        <ul class="list" *ngIf="options">
+            <li *ngFor="let option of options">{{ option.name }}</li>
+        </ul>
+    </div>
+</div>

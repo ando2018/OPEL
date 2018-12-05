@@ -1,0 +1,32 @@
+<div class="container">
+    <app-loader *ngIf="loading"></app-loader>
+
+    <div *ngIf="!loading">
+        <div class="title">
+            <p>Renseignez votre adresse mail afin de recevoir la brochure du véhicule ou scannez le code ci-dessous à l'aide
+                de votre smartphone.</p>
+            <div>
+
+            </div>
+        </div>
+        <div class="form">
+            <div class="mail">
+                <h2 class="left">Complétez votre email</h2>
+                <form [formGroup]="form" (submit)="submit(form.value)">
+                    <input type="text" placeholder="E-mail*" formControlName="email" [class.error]="(showError || form.get('email').touched) && !form.get('email').valid">
+                    <input type="submit" class="button" value="Valider">
+                </form>
+            </div>
+            <div class="m-qr" *ngIf="qrCodeSrc">
+                <h2 class="right">Scannez le code</h2>
+                <div class="qrcode">
+                    <div class="scan">
+                        <qrcode [qrdata]="qrCodeSrc" [size]="'256'" [level]="'M'"></qrcode>
+                    </div>
+
+                    <span class="text">Scan me</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

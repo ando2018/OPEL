@@ -1,0 +1,238 @@
+@import '~swiper/dist/css/swiper.min.css';
+
+body {
+    overflow: hidden;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    bottom: 0;
+}
+footer .logo{
+    position: absolute;
+    right: 0;
+    top: auto;
+    display: block;
+    height: 145px;
+    width: 317px;
+    z-index: 100;
+    bottom: 0 !important;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slider img {
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+}
+.slider .txt-slide{
+    position: absolute;
+    top: 73px;
+    left: 109px;
+    line-height: normal;
+    text-align: left;
+}
+.slider .txt-slide h2{
+    color: #fff;
+    font-size: 65px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #ffdf00;
+    display: inline-block;
+}
+.slider .txt-slide h2 a{
+    color: #fff;
+}
+.slider .txt-slide p{
+    color: #fff;
+    font-size: 44px;
+    padding-top: 17px;
+}
+.slider.vehicles .txt-slide h2 a, .slider.vehicles .txt-slide p,
+.slider.offers .txt-slide h2 a, .slider.offers .txt-slide p,
+.slider.brochure .txt-slide h2 a , .slider.brochure .txt-slide p{
+    color: #fff;
+}
+
+.slider.configurator .txt-slide h2 a, .slider.configurator .txt-slide p,
+.slider.accessories .txt-slide h2 a, .slider.accessories .txt-slide p,
+.slider.videos .txt-slide h2 a, .slider.videos .txt-slide p {
+    color: #000;
+}
+.nav-slide {
+    /* bottom: 60px; */
+    bottom: 270px;
+    position: absolute;
+    right: 0;
+    width: auto;
+    z-index: 500;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+}
+/*
+.nav-slide.vehicles {
+}
+
+.nav-slide.configurator {
+    bottom: 130px;
+}
+
+.nav-slide.accessories {
+    bottom: 200px;
+}
+
+.nav-slide.videos {
+    bottom: 270px;
+}
+
+.nav-slide.offers {
+    bottom: 338px;
+}
+
+.nav-slide.brochure {
+    bottom: 408px;
+}
+*/
+.nav-slide li {
+    height: 70px;
+    position: relative;
+    float: right;
+    clear: both;
+    right: 0;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.cnt-tab {
+    padding: 0;
+    width: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #000;
+    height: 80px;
+}
+
+.icon {
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    width: 60px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.nav-slide li .slide-title {
+    background: #f0d200;
+    display: none;
+    padding: 10px 25px;
+    color: #000;
+    font-family: 'Opel Sans Condensed', Arial;
+    font-style: normal;
+    font-size: 60px;
+    left: 0;
+    height: 100px;
+    line-height: normal;
+    min-height: 99px;
+    min-width: 417px;
+    overflow: hidden;
+    position: absolute;
+    top: -99px;
+    width: auto;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+.nav-slide li .slide-title a {
+    color: #000;
+}
+
+.nav-slide li p {
+    color: #fff;
+    font-size: 47px;
+    line-height: normal;
+}
+
+.cnt-nav-slide {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+
+
+}
+
+.nav-slide li.active {
+    float: none;
+    padding: 0;
+   /* height: 140px; */
+    margin-bottom: 15px;
+}
+
+.nav-slide li.active .cnt-tab {
+    padding: 10px 95px 10px 25px;
+    /* padding: 10px 150px 10px 25px; */
+    text-align: left;
+    width: auto; /* 1236px;*/
+    /* height: 140px;*/
+}
+
+.nav-slide li.active .slide-title {
+    display: block;
+}
+
+.nav-slide li.active .icon {
+    /* top: 15px;
+    height: 110px;
+    width: 110px;
+    */
+}
+
+.nav-slide li.active .cnt-nav-slide {
+    width: auto;
+    height: 120px;
+    overflow: hidden;
+    opacity: 1;
+    align-content: center;
+    vertical-align: middle;
+    display: none; /* table-cell;*/
+}

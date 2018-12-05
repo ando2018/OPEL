@@ -1,0 +1,16 @@
+<div>
+    <div class="form">
+        <div *ngFor="let option of options; let i = index" class="line">
+            <input type="text" [(ngModel)]="option.text" />
+            <span class="remove" (click)="removeOption(i)">
+                <img src="assets\icons\suppr.png">
+            </span>
+        </div>
+    </div>
+    <div class="btn-right margin">
+        <button class="arrow" (click)="addOption()">Ajouter</button>
+    </div>
+    <div class="btn-right">
+        <button class="arrow" (click)="saveOptions()">Sauver</button>
+    </div>
+</div>

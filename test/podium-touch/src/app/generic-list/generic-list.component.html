@@ -1,0 +1,13 @@
+<div class="list-category">
+    <div class="gamme" *ngFor="let category of categories">
+        <h2>{{ category.name.toUpperCase() }}</h2>
+        <div class="list-gamme">
+            <div class="product" *ngFor="let vehicle of category.vehicles" (click)="selectVehicle(vehicle)">
+                <div class="vinette">
+                    <img [src]="vehicle.visual" [alt]="vehicle.name" />
+                </div>
+                <h3>{{ category.vehicles.length > 1 || category.name !== vehicle.name ? vehicle.name.toUpperCase() : ''}}</h3>
+            </div>
+        </div>
+    </div>
+</div>

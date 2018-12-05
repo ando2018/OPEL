@@ -1,0 +1,10 @@
+<div class="swiper-container container" *ngIf="!hideCarousel">
+    <div class="logo">
+        <img routerLink="/stand" src="assets\img\logo.png">
+    </div>
+    <swiper class="swiper-wrapper" [config]="config">
+        <div *ngFor="let img of slides">
+            <img [src]="img.src" [alt]="img.title">
+        </div>
+    </swiper>
+</div>

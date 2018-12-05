@@ -1,0 +1,14 @@
+<div class="container" *ngIf="loading">
+    Chargement ...
+</div>
+
+<div class="container" *ngIf="!loaded && !loading">
+    Erreur ...
+</div>
+
+<div class="container" *ngIf="loaded && !loading">
+    <app-car-banner></app-car-banner>
+    <app-car-infos-navs></app-car-infos-navs>
+    <router-outlet></router-outlet>
+    <app-info-carbu></app-info-carbu>
+</div>

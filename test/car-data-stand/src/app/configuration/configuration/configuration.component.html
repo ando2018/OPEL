@@ -1,0 +1,134 @@
+<div class="container">
+    <div class="logo">
+        <img routerLink="/stand" src="assets\img\logo.png">
+    </div>
+    <h1>Configuration</h1>
+    <div class="configuration-section" *ngFor="let step of steps">
+        <div class="configuration-title" (click)="toggle(step.number, !step.collapsed)">
+            <h2 [class.active]="!step.collapsed">{{ step.valid ? title(step.number) : step.title }}</h2>
+            <span *ngIf="step.collapsed">
+                <img src="assets\img\leche_bas.svg">
+            </span>
+            <span *ngIf="!step.collapsed">
+                <img src="assets\img\fleche_haut.svg">
+            </span>
+        </div>
+
+        <div class="section-body" *ngIf="!step.collapsed">
+
+            <div *ngIf="step.number === 1">
+                <div *ngIf="loadingVehicle" class="consigne">
+                    Chargement ...
+                </div>
+                <div *ngIf="!loadingVehicle && gammes.length === 0" class="consigne">
+                    Aucune véhicule trouvée.
+                </div>
+                <div *ngIf="!loadingVehicle && gammes.length > 0">
+                    <div *ngFor="let gamme of gammes" class="category">
+                        <h3>{{ gamme.name }}</h3>
+                        <div *ngFor="let vehicle of gamme.vehicles" (click)="selectVehicle(vehicle, step.number + 1)"
+                             class="category-thumbnail" [class.selected]="activeVehicle(vehicle)">
+                            <img [src]="vehicle.visual">
+                            <h4>{{ vehicle.name.toUpperCase() }}</h4>
+                            <p>A partir de XXX &euro;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="step.number === 2">
+
+                <div *ngIf="loadingModels" class="consigne">
+                    Chargement ...
+                </div>
+
+                <div *ngIf="selectedVehicle && !loadingModels" class="category">
+                    <div *ngIf="availableModels.length === 0" class="consigne">
+                        Aucun modèle disponible pour cette véhicule.
+                    </div>
+
+                    <div *ngIf="availableModels.length > 0">
+                        <div *ngFor="let model of availableModels" (click)="selectModel(model, step.number + 1)" class="model">
+                            <h4>{{ model.name }}</h4>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div *ngIf="!selectedVehicle" class="consigne">
+                    Veuillez sélectionner une véhicule.
+                </div>
+            </div>
+
+            <div *ngIf="step.number === 3" class="consigne">
+                <div *ngIf="loadingOptions" class="consigne">
+                    Chargement ...
+                </div>
+
+                <div *ngIf="selectedModel">
+                    <div *ngIf="options.length > 0 && !loadingOptions" class="consigne">
+
+                        <form [formGroup]="optionsForm" (submit)="selectOptions(3)">
+                            <label formArrayName="options" *ngFor="let option of optionsForm.controls.options.controls; let i = index" class="option">
+                                <h4><input type="checkbox" [formControlName]="i"> {{ options[i].name }} <span class="option-price">{{ options[i].price | number }} €</span></h4>
+                                <hr>
+                            </label>
+                        </form>
+                    </div>
+
+                    <div *ngIf="options.length === 0 && !loadingOptions">
+                        Aucune option disponible pour ce modèle.
+                    </div>
+                </div>
+
+                <div *ngIf="!selectedModel" class="consigne">
+                    Veuillez sélectionner un modèle.
+                </div>
+
+                <div class="valid">
+                    <button (click)="selectOptions(step.number + 1)">Valider</button>
+                </div>
+            </div>
+
+            <div *ngIf="step.number === 4">
+                <div *ngIf="selectedModel" class="main">
+                    <div>
+                        <h5>Prix catalogue</h5>
+                        <p>avec options</p>
+                    </div>
+
+                    <div>
+                        <h5>Prix affiché</h5>
+                        <p>avec options</p>
+                    </div>
+                </div>
+
+                <div *ngIf="selectedModel" class="main form">
+                    <div>{{ totalPrice | number:'2.0-0' }} € TTC</div>
+                    <div>
+                        <input type="text" [(ngModel)]="shownPrice"> € TTC
+                        <input type="submit" value="Valider" (click)="updatePrice()">
+                    </div>
+                </div>
+
+                <div *ngIf="!selectedModel" class="consigne">
+                    Veuillez sélectionner un modèle.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="valid">
+        <button (click)="saveConfigs()" *ngIf="showValidate">Valider la configuration</button>
+    </div>
+
+    <div class="footer">
+        <div class="disconnect">
+            <a (click)="logout()">
+                <span class="lock">
+                    <img src="assets\img\lock.png">
+                </span>
+            </a>
+        </div>
+    </div>
+</div>

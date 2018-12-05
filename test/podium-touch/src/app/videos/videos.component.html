@@ -1,0 +1,19 @@
+<div class="container-video">
+    <div class="link-back">
+        <span (click)="retour()">RETOUR</span>
+    </div>
+
+    <div class="swiper-wrapper">
+        <swiper [config]="swiperConfig" [(index)]="currentIndex" (indexChange)="indexChange()">
+            <div class="swiper-slide" *ngFor="let video of list; let i = index">
+                <h3>{{ video.gammeName }} - {{ video.title }}</h3>
+                <div class="content-video" *ngIf="video" (click)="togglePlay(i)">
+                    <span class="play" *ngIf="!currentlyPlaying"></span>
+                    <video [controls]="controls" [autoplay]="autoplay" [loop]="loop" id="video-{{ i }}" (ended)="reachEnd(i)">
+                        <source [src]="video.src" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </swiper>
+    </div>
+</div>

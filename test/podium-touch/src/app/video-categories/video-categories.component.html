@@ -1,0 +1,8 @@
+<div class="container-video">
+    <ul class="list_video">
+        <li *ngFor="let category of categories" (click)="goToVideos(category.name)">
+            <h4>{{category.name}}</h4>
+            <img [src]="category.visual" [alt]="category.name" />
+        </li>
+    </ul>
+</div>

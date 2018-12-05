@@ -1,0 +1,4 @@
+<div class="main-container">
+    <app-generic-list *ngIf="!currentVehicle" [categories]="categories" (onSelect)="setCurrentVehicle($event)"></app-generic-list>
+    <app-generic-iframe *ngIf="currentVehicle" [baseUrl]="iframeBaseUrl" [partUrl]="currentVehicle.vehicleIframeUrl" [vehicleName]="currentVehicle.name"></app-generic-iframe>
+</div>

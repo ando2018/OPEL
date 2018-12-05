@@ -1,0 +1,8 @@
+<div *ngIf="model">
+    <ul>
+        <li *ngFor="let option of model.options">{{ option }}</li>
+    </ul>
+    <div class="btn-right">
+        <button class="modif arrow" [routerLink]="['../../../edit', model._id]">Modifier</button>
+    </div>
+</div>

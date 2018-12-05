@@ -1,0 +1,32 @@
+h2 {
+    display: table;
+    border-bottom: #F7D900 solid 2px;
+    padding-right: 10px;
+}
+.cnt-button {
+    padding-top: 20px;
+}
+.modif{
+    width: 160px;
+    border: none !important;
+    border: 0;
+    cursor: pointer;
+    height: 38px;
+    background: #f7d900;
+    color: #000;
+    font-size: 20px !important;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 !important;
+}
+ul{
+    list-style: none;
+}
+ul.list_img.list_img img {
+    height: auto;
+    max-width: 90%;
+    width: auto;
+}
+h2 {
+    margin: 0 0 20px;
+}

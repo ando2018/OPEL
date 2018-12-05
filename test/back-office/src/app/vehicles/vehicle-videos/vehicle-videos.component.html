@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>Liste des vidéos affichées</h1>
+    <div class="list bar">
+        <div *ngIf="vehicleDetail?.videos.length === 0">
+            <img src="assets\img\aucune-video.png" alt="">
+        </div>
+        <ul>
+            <li *ngFor="let video of vehicleDetail?.videos ">
+                <div class="content-video">
+                    {{video?.title}}
+                    <video *ngIf="isMock" class="video">
+                        <source width="300" width="200" type="video/mp4" src="assets\videos\video.mp4" />
+                    </video>
+                    <video *ngIf="!isMock" controls="controls" class="video">
+                        <source width="300" width="200" type="video/mp4" [src]="getVideo(video)" />
+                    </video>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-right">
+        <button class="arrow" [routerLink]="['../../../edit', vehicleDetail._id, 'videos']">Modifier</button>
+    </div>
+</div>

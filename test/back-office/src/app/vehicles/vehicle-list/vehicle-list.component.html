@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="drop">
+        <div class="nom">{{ gamme?.name || 'TOUS' }}</div>
+        <div class="dropdown">
+            <span>
+                <img src="assets\icons\option.png">
+            </span>
+            <div class="dropdown-content">
+                <nav>
+                    <div *ngIf="isAllGamme" (click)="modifyGamme()">Modifier Gamme</div>
+                    <div routerLink="/admin/vehicles/new/vehicle">Ajouter vehicule</div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="list-vehicule">
+        <div class="vehicle" *ngFor="let vehicle of vehicles">
+            <div (click)="goToDetail(vehicle)">
+                <h2>{{ vehicle?.name }}</h2>
+                <img *ngIf="isMock" src="assets\img\G1_V1_ADAM_ADAM.png">
+                <img [src]="getVisual(vehicle)" *ngIf="!isMock" alt="">
+                <div class="option">
+                    <a (click)="goToEdit(vehicle)">
+                        <img src="assets\icons\edit.png">
+                    </a>
+                    <a (click)="goToDelete(vehicle); $event.stopPropagation()">
+                        <img src="assets\icons\suppr.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

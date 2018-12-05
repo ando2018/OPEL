@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="logo">
+        <img routerLink="/stand" src="assets\img\logo.png">
+    </div>
+    <div class="form">
+        <form (submit)="form.valid && logIn(form.value)" [formGroup]="form">
+            <div class="login">
+                <label for="username">Login</label>
+                <input type="text" name="username" id="username" [disabled]="loading" formControlName="email">
+            </div>
+
+            <div class="login">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" [disabled]="loading" formControlName="password">
+            </div>
+
+            <div class="message">
+                <div class="error" *ngIf="showError">
+                    {{ errorMessage }}
+                </div>
+
+                <div *ngIf="loading" class="loading">
+                    Chargement ...
+                </div>
+            </div>
+
+            <input type="submit" [class.disabled]="loading" [disabled]="loading" value="Login" class="button">
+        </form>
+
+
+    </div>
+</div>

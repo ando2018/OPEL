@@ -1,0 +1,73 @@
+<div class="container">
+    <div class="conf-container">
+        <div class="left">
+            <div class="form">
+                <div class="form">
+                    <div class="title">
+                        <h1>Déclaration de confidentialité</h1>
+                        <label class="cnt-button" for="confidentiality" class="btn ajouter">
+                            <img src="assets/icons/edit.png" alt="">
+                        </label>
+                        <input style="visibility:hidden;" id="confidentiality" type="file" name="confidentiality" accept="image/*" (change)="handleInput($event.target.files,'confidentiality')">
+                    </div>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <img *ngIf="isMock || !isConfidentialityFileExist " (click)="show(getUrl('assets\img\aucune-image.png'));zoom = 100" src="assets\img\aucune-image.png">
+                            <img *ngIf="!isMock && isConfidentialityFileExist" (click)="show(getUrl('confidentiality'));zoom = 100; scale = 1" [src]="getUrl('confidentiality')">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="form">
+                <div class="form">
+                    <div class="title">
+                        <h1>Droits liés à la vie privée</h1>
+                        <label class="cnt-button" for="privacy" class="btn ajouter">
+                            <img src="assets/icons/edit.png" alt="">
+                        </label>
+                        <input style="visibility:hidden;" id="privacy" type="file" name="privacy" accept="image/*" (change)="handleInput($event.target.files,'privacy')"
+                            multiple>
+                    </div>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <img *ngIf="isMock || !isPrivacyFileExist " (click)="show(getUrl('assets\img\aucune-image.png'));zoom = 100" src="assets\img\aucune-image.png">
+                            <img *ngIf="!isMock  && isPrivacyFileExist" (click)="show(getUrl('privacy'));zoom = 100;scale= 1 " [src]="getUrl('privacy')">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="btn-right">
+        <button *ngIf="btnSaveIsShown" class="button arrow" (click)="saveConfidentiality()" type=" submit ">VALIDER</button>
+    </div>
+
+</div>
+
+<!-- MODAL: -->
+
+<div class="modal" [style.display]="shown ? 'block' : 'none' ">
+    <div class="modal-loop">
+        <button class="loop" (click)="zoom = zoom - 10;scale = scale - 0.1 ">
+            <img width="20px" src="assets\icons\less-zoom-symbol.png" alt="">
+        </button>
+        <button class="loop" (click)="zoom= zoom + 10 ;scale = scale + 0.1 ">
+            <img width="20px" src="assets\icons\more-zoom.png" alt="">
+        </button>
+    </div>
+    <span class="close" (click)="shown = false">&times;</span>
+    <br>
+    <div>
+        <img [style.zoom]="getZoom(zoom)" [ngStyle]="{'-moz-transform': getZoom(scale) }" class="modal-content" [src]="selectedSlide">
+    </div>
+    <div id="caption">{{ selectedSlideFilename }}</div>
+</div>

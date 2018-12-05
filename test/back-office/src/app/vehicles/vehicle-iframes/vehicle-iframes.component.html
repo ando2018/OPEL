@@ -1,0 +1,18 @@
+<div>
+    <div class="tab">
+        <label>Véhicule : </label>
+        <a [href]="vehicle.vehicleIframeUrl" target="_blank">{{ vehicle.vehicleIframeUrl}}</a>
+    </div>
+    <div class="tab">
+        <label>Configurateur : </label>
+        <a [href]="vehicle.configuratorIframeUrl" target="_blank">{{ vehicle.configuratorIframeUrl}}</a>
+    </div>
+    <div class="tab">
+        <label>Accessoires : </label>
+        <a [href]="vehicle.accesoriesIframeUrl" target="_blank">{{ vehicle.accesoriesIframeUrl}}</a>
+    </div>
+    <br>
+    <div class="btn-right">
+        <button class="arrow" [routerLink]="['../../../edit', vehicle._id, 'iframes']">Modifier</button>
+    </div>
+</div>

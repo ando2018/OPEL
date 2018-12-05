@@ -1,0 +1,170 @@
+.error {
+    border-bottom: solid 4px orangered !important;
+}
+.visualerror{
+    border: solid 4px orangered !important;
+}
+
+h1 {
+    background: #f7d900;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h2 {
+    display: table;
+    border-bottom: #f7d900 solid 2px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.int {
+    margin-top: 40px;
+}
+
+.form {
+    position: relative;
+    padding-top: 15px;
+    width: 100%;
+}
+.form fieldset {
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.form small {
+    color: orangered;
+}
+legend {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+label {
+    font-size: 24px;
+}
+label small {
+    font-size: 16px;
+}
+select {
+    width: 60%;
+    cursor: pointer;
+    height: 42px;
+    margin-bottom: 20px;
+}
+input {
+    background: transparent;
+    width: 100%;
+    color: #000;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 4px #f7d900 solid;
+    padding: 5px 35px 5px 20px;
+    font-family: 'opel sans condensed';
+    box-sizing: border-box;
+    height: 35px;
+    font-size: 15px;
+}
+.no-picture {
+    width: 100%;
+    height: 180px;
+    border: solid 4px gray ;
+    background: #f4f4f4 url(../../../assets/img/aucune-visuel.png) no-repeat center !important;
+}
+.picture {
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 25%;
+}
+
+.image label {
+    display: block;
+}
+
+.remove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    background: #afb1b1;
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.image .img {
+    left: O !important;
+    right: initial;
+}
+
+.remove:hover {
+    background: #f7d900;
+}
+
+button:hover,
+.button-disabled {
+    background: #ccc;
+}
+
+.picture img {
+    max-width: 100%;
+    padding: 0;
+    display: block;
+    margin: auto;
+}
+
+button,
+label.btn {
+    width: 150px;
+    border: none;
+    border: 0;
+    cursor: pointer;
+    background: #f7d900;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0;
+    margin-right: 15px;
+    text-align: center;
+    height: 38px;
+    width: 100px;
+}
+
+label.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+}
+
+.ajouter {
+    width: auto;
+    height: 42px;
+    padding: 0 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.picture img {
+    width: 25%;
+}

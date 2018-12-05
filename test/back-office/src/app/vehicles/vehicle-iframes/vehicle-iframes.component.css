@@ -1,0 +1,25 @@
+button{
+    background: #F7D900;
+    border: none;
+    font-size: 20px;
+    height: 38px;
+    width: 120px;
+}
+
+.tab{
+    width: 100%;
+    display: flex;
+    border-bottom: #F7D900 solid 2px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.tab label{
+    display: block;
+    min-width: 130px;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}

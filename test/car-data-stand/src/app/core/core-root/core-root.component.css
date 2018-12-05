@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.not-configured {
+    padding-top:60%;
+    text-align: center;
+    vertical-align: center;
+}
+
+h4 {
+    font-size: 60px;
+}
+
+a {
+    font-size: 40px;
+    background-color: #f7d900;
+    padding: 7px 15px;
+    color: #000;
+}

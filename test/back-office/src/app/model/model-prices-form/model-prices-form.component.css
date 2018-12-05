@@ -1,0 +1,42 @@
+.form {
+    position: relative;
+}
+.form input {
+    background: transparent;
+    width: 100%;
+    color: #000;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 4px #F7D900 solid;
+    padding: 5px 20px;
+    font-family: 'opel sans condensed';
+    box-sizing: border-box;
+    height: 35px;
+}
+button{
+    width: 150px ;
+    border: none;
+    border: 0;
+    cursor: pointer;
+    height: 38px;
+    width: 100px;
+    background: #f7d900;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 ;
+    margin-right: 15px;
+}
+button:hover{
+    background: #ccc;
+}
+
+.error {
+    border-bottom: solid 4px orangered !important;
+}
+
+button:hover,
+.button-disabled {
+    background: #ccc;
+}

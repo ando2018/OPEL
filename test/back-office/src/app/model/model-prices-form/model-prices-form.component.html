@@ -1,0 +1,14 @@
+<div>
+    <div class="form">
+        <form (submit)="formValidation() && !isRequired('price') && savePrice(form.value)" [formGroup]="form">
+            <label for="" class="required">Prix:</label>
+            <small class="label-error" *ngIf="isRequired('price')">
+                <p>(requis)</p>
+            </small>
+            <input formControlName="price" [class.error]="isRequired('price')" type="text" placeholder="Entrer prix" />
+            <div class="btn-right">
+                <button class="arrow" [class.button-disabled]="!this.form.valid">Sauver</button>
+            </div>
+        </form>
+    </div>
+</div>

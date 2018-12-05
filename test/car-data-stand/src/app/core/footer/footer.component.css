@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+}
+
+.carbu {
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 60px 25px 0 0;
+    vertical-align: right;
+}
+
+.carbu span {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.co {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+span.bold {
+    font-weight: 800;
+    padding: 20px 0 0 0 !important;
+    right: 0;
+}
+
+.log {
+    background: #ccc;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    padding: 20px 20px 20px 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.log p {
+    line-height: 15px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.log a {
+    display: block;
+    width: 80px;
+    text-align: right;
+}

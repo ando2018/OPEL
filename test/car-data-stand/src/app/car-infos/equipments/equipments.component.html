@@ -1,0 +1,19 @@
+<div class="container" *ngIf="equipments">
+
+    <app-loader *ngIf="loading"></app-loader>
+
+    <div *ngIf="!loading">
+        <div class="ext" *ngIf="equipments.outside">
+            <h2>Extérieur</h2>
+            <ul class="list">
+                <li *ngFor="let equipment of equipments.outside"><span [innerHTML]="equipment"></span></li>
+            </ul>
+        </div>
+        <div class="int" *ngIf="equipments.inside">
+            <h2>Intérieur</h2>
+            <ul class="list">
+                <li *ngFor="let equipment of equipments.inside"><span [innerHTML]="equipment"></span></li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+<link href="https://cdn.materialdesignicons.com/2.1.19/css/materialdesignicons.min.css" rel="stylesheet" />
+
+
+<div class="container" *ngIf="form && formMentionLegale ">
+    <form [formGroup]="form" (submit)="formValidation() && form.valid && saveSpecialOffersSlides()" class="form">
+
+        <div class="title">
+            <h1> Slides</h1>
+            <label class="cnt-button" for="file" class="btn ajouter">+</label>
+            <input id="file" style="visibility:hidden;" type="file" accept="image/*" (change)="handleFileInput($event.target.files)"
+                multiple>
+        </div>
+
+        <div formArrayName="offers" class="list">
+            <ul>
+                <li *ngIf="offers.controls.length === 0">
+                    <img src="assets/img/aucune-image.png" alt="">
+                </li>
+                <li *ngFor="let offer of offers.controls; let i = index;" [class.deleted]="offer.get('deleted').value">
+                    <fieldset [formGroupName]="i">
+                        <img [class.delete]="offer.get('deleted').value" [src]="offer.get('src').value" (click)="show(offer)">
+                        <div class="option">
+                            <a (click)="toggleDelete(offer)">
+                                <img [src]="offer.get('deleted').value ? 'assets/icons/un-suppr.png' : 'assets/icons/suppr.png'" [title]="offer.get('deleted').value ? 'Annuler suppression' : 'Supprimer'">
+                            </a>
+                        </div>
+                        <small class="label-error" *ngIf=" isRequired(offer.get('title'))">
+                            <p *ngIf="offer.get('title').errors.maxlength">(longueur maximale 30 caractères)</p>
+                        </small>
+                        <input formControlName="title" [class.error]="isRequired(offer.get('title'))" placeholder="Titre" />
+
+                        <ng-select [class.month-error]="isRequired(offer.get('months'))" formControlName="months" [items]="months" [multiple]="true"
+                            [closeOnSelect]="false" bindLabel="name" placeholder="Mois">
+                        </ng-select>
+                    </fieldset>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div class="btn-right" *ngIf="btnSaveIsShown">
+            <button [class.button-disabled]="!form.valid" class="button arrow" type=" submit ">Sauver</button>
+        </div>
+    </form>
+
+    <form [formGroup]="formMentionLegale" (submit)="saveSpecialOffersMentionLegale()" class="form">
+        <h1>Mentions légales: </h1>
+        <ngx-wig formControlName="legalNotice"></ngx-wig>
+        <br>
+        <div class="btn-right">
+            <button [disabled]="!formMentionLegale.valid" [class.button-disabled]="!formMentionLegale.valid" class="button arrow" type=" submit ">Sauver</button>
+        </div>
+    </form>
+
+</div>
+
+<!-- MODAL: -->
+
+<div class="modal" [style.display]="shown ? 'block' : 'none' ">
+    <span class="close" (click)="shown = false;">&times;</span>
+    <img class="modal-content" [src]="selectedSlideSrc">
+    <div id="caption">{{ selectedSlideFilename }}</div>
+</div>

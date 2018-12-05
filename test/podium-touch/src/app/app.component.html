@@ -1,0 +1,14 @@
+<router-outlet></router-outlet>
+<footer class="content-footer" *ngIf="displayLinks">
+    <ul class="nav-footer">
+        <li>
+            <a routerLink="/pages/my-opel" (click)="navigateTo('my opel')" routerLinkActive="nav-footer-active">myopel.fr</a>
+        </li>
+        <li>
+            <a routerLink="/pages/rousseau" (click)="navigateTo('rousseau')" routerLinkActive="nav-footer-active">rousseau.fr</a>
+        </li>
+        <li *ngIf="showLegalNotice()">
+            <a routerLink="/pages/legal-notice" routerLinkActive="nav-footer-active">mentions légales</a>
+        </li>
+    </ul>
+</footer>

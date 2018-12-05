@@ -1,0 +1,170 @@
+.container {
+    width: 1080px;
+    min-height: 100px;
+    padding: 30px 35px 0 35px;
+    height: 920px;
+    position: fixed;
+    /*top: 830px;*/
+    overflow-y: auto !important;
+    background: #fff;
+    text-align: left;
+}
+
+h2 {
+    padding: 35px 15px;
+    margin: 25px 0 40px 0;
+    text-align: center;
+    font-family: 'opel sans condensed';
+    font-weight: 400;
+}
+
+.title {
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.error {
+    border-bottom: solid orangered 4px !important;
+}
+
+.qrcode {
+    border-radius: 20px;
+    border: solid 20px #1D1E1C;
+    background-color: #1D1E1C;
+}
+
+.scan {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.text {
+    margin-top: 5px;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    background: url('/assets/img/phone.png') left no-repeat #1D1E1C;
+}
+
+.scan > img {
+    /*border: solid 10px #fff;*/
+    border-radius: 10px;
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+h2 {
+    line-height: 35px;
+}
+
+p {
+    font-size: 25px;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.form input {
+    width: 100%;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 5px #F7D900 solid;
+    padding: 10px 20px;
+    font-family: 'opel sans condensed';
+}
+
+.select {
+    width: 35%;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 5px #F7D900 solid;
+    padding: 10px 20px;
+}
+
+.select:focus {
+    outline: none;
+}
+
+.select option {
+    width: 100%;
+    font-size: 20px;
+    background: #fff;
+    font-family: 'opel sans condensed'
+}
+
+.select option:hover,
+.select option:focus,
+.select option:checked {
+    background: #ccc !important;
+}
+
+input::placeholder {
+    color: #000;
+}
+
+input.civil {
+    width: 35% !important;
+}
+
+.button {
+    width: 35% !important;
+    border: none !important;
+    border: 0;
+    cursor: pointer;
+    height: 58px;
+    width: 180px;
+    background: #f7d900;
+    color: #000;
+    font-size: 30.83px !important;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 !important;
+    float: right;
+}
+
+input[type="submit"]:disabled {
+    background-color: #656565 !important;
+}
+
+div.error-messages {
+    width: 65%;
+    float: left;
+    color: orangered;
+}
+
+div.error-messages > .error-message {
+    line-height: 24px;
+    font-size: 25px;
+}
+
+.link {
+    font-weight: 800;
+    border-bottom: #F7D900 solid 1px;
+}
+
+button {
+    background: #F7D900 !important;
+    border: none !important;
+    padding: 10px !important;
+    z-index: 999999;
+    font-size: 30px;
+    float: right;
+    margin-bottom: 15px;
+}
