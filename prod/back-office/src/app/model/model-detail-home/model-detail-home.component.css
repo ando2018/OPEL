@@ -1,0 +1,39 @@
+.list ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.list ul li {
+    list-style: none;
+    width: 23%;
+    position: relative;
+    margin: 10px;
+}
+
+.list ul li img {
+    width: 100%;
+}
+
+.list ul li img:hover {
+    opacity: 0.7;
+}
+
+li:hover .option a {
+    display: flex;
+}
+
+.modif {
+    width: 160px;
+    border: none !important;
+    border: 0;
+    cursor: pointer;
+    height: 38px;
+    background: #f7d900;
+    color: #000;
+    font-size: 20px !important;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 !important;
+}

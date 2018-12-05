@@ -1,0 +1,72 @@
+<div class="container">
+
+    <app-loader *ngIf="loading"></app-loader>
+
+    <div class="technical" *ngIf="datas && !loading">
+        <h2>Dimensions extérieures</h2>
+        <ul class="list_img">
+            <li *ngFor="let image of datas.externalDimensions.schemas">
+                <img [src]="imageFolder + image">
+            </li>
+        </ul>
+        <ul class="list">
+            <li>
+                <span class="left">Empattement :</span>
+                <span class="right">{{ datas.externalDimensions.empattement }}</span>
+            </li>
+            <li>
+                <span class="left">Longueur totale :</span>
+                <span class="right">{{ datas.externalDimensions.totalLength }}</span>
+            </li>
+            <li>
+                <span class="left">Hauteur à vide :</span>
+                <span class="right">{{ datas.externalDimensions.emptyHeight }}</span>
+            </li>
+            <li>
+                <span class="left">Largeur avec/sans rétroviseurs rabattus (mm) :</span>
+                <span class="right">{{ datas.externalDimensions.widthWithMirror }} / {{ datas.externalDimensions.widthWithoutMirror }}</span>
+            </li>
+
+            <li>
+                <span class="left">Rayon de braquage (entre trottoirs / murs) (m) </span>
+                <span class="right">{{ datas.externalDimensions.turningRadius }}</span>
+            </li>
+        </ul>
+
+        <br>
+
+        <h2>Dimensions intérieures</h2>
+        <ul class="list">
+            <li>
+                <span class="left">Volume de chargement (méthode de mesure ECIE) (I) :</span>
+                <span class="right">{{ datas.internalDimensions.loadingVolume }}</span>
+            </li>
+        </ul>
+
+        <br>
+
+        <h2>Poids et charges</h2>
+        <ul class="list">
+            <li>
+                <span class="left">Poids du véhicule :</span>
+                <span class="right">{{ datas.weightLoad.weight }}</span>
+            </li>
+
+            <li>
+                <span class="left">Réservoir :</span>
+                <span class="right">{{ datas.weightLoad.tank }}</span>
+            </li>
+
+            <li>
+                <span class="left">Poids maxi remorque freiné (paliers de 12%) /non freiné (kg) :</span>
+                <span class="right">{{ datas.weightLoad.maxWeightBrakedTrailer }} / {{ datas.weightLoad.maxWeightNoBrakedTrailer }}</span>
+            </li>
+
+            <li>
+                <span class="left">Poids total autorisé (kg) :</span>
+                <span class="right">{{ datas.weightLoad.totalWeightAllowed }}</span>
+            </li>
+        </ul>
+    </div>
+</div>
+10

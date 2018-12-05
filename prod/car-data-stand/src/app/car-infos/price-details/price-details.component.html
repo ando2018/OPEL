@@ -1,0 +1,7 @@
+<div class="container">
+    <app-loader *ngIf="loading"></app-loader>
+    <div *ngIf="!loading">
+        <img [src]="priceDetailsSrc">
+        <button (click)="retour()"></button>
+    </div>
+</div>

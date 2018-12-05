@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="form">
+        <form (submit)="form.valid && logIn(form.value)" [formGroup]="form" *ngIf="!loading">
+            <div class="login">
+                <label for="username">Utilisateur</label>
+                <input [class.error]="form.get('email').dirty &&  !form.get('email').valid" type="text" name="username" id="username" formControlName="email">
+                <small class="label-error" *ngIf="!form.get('email').valid && form.get('email').dirty">
+                    <p *ngIf="form.get('email').errors.required">(email requis)</p>
+                </small>
+            </div>
+
+            <div class="login">
+                <label for="password">Mot de passe</label>
+                <input [class.error]="form.get('password').dirty &&  !form.get('password').valid" type="password" name="password" id="password"
+                    formControlName="password">
+                <small class="label-error" *ngIf="!form.get('password').valid && form.get('password').dirty">
+                    <p *ngIf="form.get('password').errors.required">(mot de passe requis)</p>
+                </small>
+            </div>
+            <button type="submit" [disabled]="!form.valid" [class.button-disabled]="!form.valid" class="button arrow">Connexion</button>
+        </form>
+    </div>
+</div>

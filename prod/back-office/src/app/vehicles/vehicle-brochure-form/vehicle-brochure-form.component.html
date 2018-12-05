@@ -1,0 +1,106 @@
+<div>
+    <form (submit)="formValidation() && form.valid &&  saveBrochureForm(form.value)" [formGroup]="form">
+        <div>
+            <h2>
+                <label class="required">
+                    Nom brochure
+                    <small class="label-error" *ngIf="isRequired('brochureName')">
+                        <p *ngIf="form.get('brochureName').errors.required">(requis)</p>
+                        <p *ngIf="form.get('brochureName').errors.maxlength">(longueur maximale 200 caractères)</p>
+                    </small>
+                </label>
+            </h2>
+            <span>
+                <input type="text" formControlName="brochureName" [class.error]="isRequired('brochureName')">
+            </span>
+
+        </div>
+        <br>
+        <div class="bro-qr">
+            <div class=m-bro>
+                <h2 class="required">Pdf
+                    <label class="label-error" *ngIf="isRequired('brochureFile')" for="">(requis)</label>
+                </h2>
+                <div class="brochure form">
+                    <div>
+                        <div *ngIf="!brochureUrl" class="no-pdf" [class.visualerror]="isRequired('brochureFile')"></div>
+                        <div *ngIf="brochureUrl" class="picture">
+                            <a *ngIf="!pdfIsClick">
+                                <img src="assets\img\pdf.png">
+                                <span>{{getFileName(brochureUrl)}}</span>
+                            </a>
+                            <a *ngIf="pdfIsClick" [href]="brochureUrl" target="_blank">
+                                <img src="assets\img\pdf.png">
+                                <span>{{getFileName(brochureUrl)}}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-right">
+                    <label class="cnt-button" for="file" class="btn arrow">{{ brochureUrl ? 'Modifier' : 'Ajouter' }}</label>
+                    <input class="hide" id="file" style="visibility:hidden;" type="file" (change)="handleFilePdfInput($event.target.files)" />
+                </div>
+            </div>
+
+            <div class="m-qr">
+                <h2 class="required">Code QR
+                    <label class="label-error" *ngIf="isRequired('brochureQrCode')" for="">(requis)</label>
+                </h2>
+                <div class="picture">
+                    <div [class.qr-code]="!qrCodeUrl" [class.scan]="qrCodeUrl">
+                        <div *ngIf="isMock">
+                            <div *ngIf="!qrCodeUrl" class="no-picture"></div>
+                            <div *ngIf="qrCodeUrl" class="qr">
+                                <img src="assets\img\insigna-qrcode.png">
+                            </div>
+                        </div>
+                        <div *ngIf="!isMock">
+                            <div *ngIf="!qrCodeUrl" class="no-picture" [class.visualerror]="isRequired('brochureQrCode')"></div>
+                            <div *ngIf="qrCodeUrl" class="qr">
+                                <img [src]="qrCodeUrl" />
+                            </div>
+                        </div>
+                        <span *ngIf="qrCodeUrl" class="text">Scan me</span>
+                    </div>
+                </div>
+                <div class="btn-right">
+                    <label class="cnt-button " for="fileQrCode" class="btn arrow">{{ qrCodeUrl ? 'Modifier' : 'Ajouter' }}</label>
+                    <input class="hide" id="fileQrCode" style="visibility:hidden;" type="file" (change)="handleFileQrCodeInput($event.target.files)"
+                    />
+                </div>
+            </div>
+            <div class=m-wallpaper>
+                <h2 class="required">Fond d'écran
+                    <label class="label-error" *ngIf="isRequired('brochureWallpaper')" for="">(requis)</label>
+                </h2>
+                <div class="picture">
+                    <div class="pic-wallpaper">
+                        <div *ngIf="isMock">
+                            <div *ngIf="!wallPaperUrl" class="no-picture"></div>
+                            <div *ngIf="wallPaperUrl" class="qr">
+                                <img (click)="show('assets\img\insigna-qrcode.png')" src="assets\img\insigna-qrcode.png">
+                            </div>
+                        </div>
+                        <div *ngIf="!isMock">
+                            <div *ngIf="!wallPaperUrl" class="no-picture" [class.visualerror]="isRequired('brochureWallpaper')"></div>
+                            <div *ngIf="wallPaperUrl" class="qr">
+                                <img [src]="wallPaperUrl" (click)="show(wallPaperUrl)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-right">
+                    <label class="cnt-button " for="fileWallPaper" class="btn arrow">{{ wallPaperUrl ? 'Modifier' : 'Ajouter' }}</label>
+                    <input class="hide" id="fileWallPaper" style="visibility:hidden;" type="file" (change)="handleFileWallPaperInput($event.target.files)"
+                    />
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div class="btn-right save">
+            <button class="arrow" type="submit" [class.button-disabled]="!this.form.valid">Sauver</button>
+        </div>
+    </form>
+</div>

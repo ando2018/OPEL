@@ -1,0 +1,42 @@
+<div class="show-img">
+    <h2>{{vehicleDetail?.name}}</h2>
+    <div *ngIf="isMock">
+        <img (click)="show('\\assets\\img\\G1_V1_ADAM_ADAM.png')" src="assets\img\G1_V1_ADAM_ADAM.png">
+    </div>
+    <div *ngIf="!isMock">
+        <img (click)="show(visualName)" src="{{visualName}}">
+    </div>
+</div>
+
+<div *ngIf="vehicleDetail?.equipments">
+    <div class="bar">
+        <div class="ext" *ngIf="vehicleDetail?.equipments.outside">
+            <h2>Extérieur</h2>
+            <ul class="list">
+                <li class="v-list" *ngFor="let equipment of vehicleDetail?.equipments.outside">
+                    <span [innerHTML]="equipment"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="int" *ngIf="vehicleDetail?.equipments.inside">
+            <h2>Intérieur</h2>
+            <ul class="list">
+                <li class="v-list" *ngFor="let equipment of vehicleDetail?.equipments.inside">
+                    <span [innerHTML]="equipment"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="btn-right">
+        <button class="arrow" [routerLink]="['../../../edit', vehicleDetail._id, 'vehicle']">Modifier</button>
+    </div>
+</div>
+
+
+<!-- MODAL: -->
+
+<div class="modal" [style.display]="shown ? 'block' : 'none' ">
+    <span class="close" (click)="shown = false;">&times;</span>
+    <img class="modal-content" [src]="selectedSlide">
+    <div id="caption">{{ selectedSlideFilename }}</div>
+</div>

@@ -1,0 +1,32 @@
+<div>
+    <div *ngIf="model">
+
+        <h2>Description</h2>
+        <span>{{ model.description }}</span>
+
+        <h2>Slides</h2>
+        <div class="list">
+            <ul>
+                <li *ngIf="slides.length === 0 ">
+                    <img src="assets/img/aucune-image.png" alt="">
+                </li>
+                <li *ngFor="let slide of slides; let i = index;" (click)="show(slide, i)">
+                    <img [src]="slide">
+                </li>
+            </ul>
+        </div>
+
+        <!-- MODAL: -->
+
+        <div class="modal" [style.display]="shown ? 'block' : 'none' ">
+            <span class="close" (click)="shown = false;">&times;</span>
+            <img class="modal-content" [src]="selectedSlide">
+            <div id="caption">{{ selectedSlideFilename }}</div>
+        </div>
+        <div class="btn-right">
+            <button class="modif arrow" [routerLink]="['../../../edit', model._id]">Modifier</button>
+        </div>
+    </div>
+
+
+</div>

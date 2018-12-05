@@ -1,0 +1,9 @@
+<div class="container">
+    <h1>Gammes</h1>
+    <div class="filtre">
+        <select [(ngModel)]="selected" (ngModelChange)="onSelect($event)">
+            <option *ngFor="let gamme of gammes" [ngValue]="gamme"> {{ gamme.name}}</option>
+        </select>
+        <button class="ajouter" (click)="addGamme()">+</button>
+    </div>
+</div>

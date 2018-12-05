@@ -1,0 +1,30 @@
+.main-container-legal {
+    padding: 134px 38px 80px;
+}
+.main-container-legal h1{
+    border-left: 7px solid #f1d300;
+    font-size: 46px;
+    line-height: 46px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.main-container-legal p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.main-container-legal b {
+    font-size: 30px;
+}
+.retour {
+    display: block;
+    position: absolute;
+    top: 137px;
+    right: 40px;
+    width: 131px;
+    background-color: #f1d300;
+    height: 58px;
+    line-height: 50px;
+    font-size: 40px;
+    padding: 3px;
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+<div class="main-container">
+    <div *ngIf="iframeIsLoading" class="cnt-loader">
+        <div class="q-loader q-flyout-spinner" style="display: block;"></div>
+    </div>
+    <iframe appIframeTracker [debug]="debug" (iframeClick)="iframeClick($event)" (load)="onLoad()" [src]="iframeSrc" frameborder="0"></iframe>
+</div>

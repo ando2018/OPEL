@@ -1,0 +1,79 @@
+<div>
+    <div class="container">
+        <div class="technical" *ngIf="model">
+            <h2>Dimensions extérieures</h2>
+            <ul class="list_img" *ngIf="isMock">
+                <img src="assets/img/OPEL_INSIGNA_.png">
+            </ul>
+            <ul class="list_img" *ngIf="!isMock">
+                <img *ngIf="model?.technicalDatas.externalDimensions.schema" [src]="getImage()">
+                <img *ngIf="!model?.technicalDatas.externalDimensions.schema" src="assets/img/aucune.png" alt="">
+            </ul>
+
+            <ul class="list">
+                <li>
+                    <span class="left">Empattement :</span>
+                    <span class="right">{{ model.technicalDatas.externalDimensions.empattement }}</span>
+                </li>
+                <li>
+                    <span class="left">Longueur totale :</span>
+                    <span class="right">{{ model.technicalDatas.externalDimensions.totalLength }}</span>
+                </li>
+                <li>
+                    <span class="left">Hauteur à vide :</span>
+                    <span class="right">{{ model.technicalDatas.externalDimensions.emptyHeight }}</span>
+                </li>
+                <li>
+                    <span class="left">Largeur avec/sans rétroviseurs rabattus (mm) :</span>
+                    <span class="right">{{ model.technicalDatas.externalDimensions.widthWithMirror }} / {{ model.technicalDatas.externalDimensions.widthWithoutMirror
+                        }}
+                    </span>
+                </li>
+
+                <li>
+                    <span class="left">Rayon de braquage (entre trottoirs / murs) (m) </span>
+                    <span class="right">{{ model.technicalDatas.externalDimensions.turningRadius }}</span>
+                </li>
+            </ul>
+
+            <h2>Dimensions intérieures</h2>
+            <ul class="list">
+                <li>
+                    <span class="left">Volume de chargement (méthode de mesure ECIE) (I) :</span>
+                    <span class="right">{{ model.technicalDatas.internalDimensions.loadingVolume }}</span>
+                </li>
+            </ul>
+
+            <h2>Poids et charges</h2>
+            <ul class="list">
+                <li>
+                    <span class="left">Poids du véhicule :</span>
+                    <span class="right">{{ model.technicalDatas.weightLoad.weight }}</span>
+                </li>
+
+                <li>
+                    <span class="left">Réservoir :</span>
+                    <span class="right">{{ model.technicalDatas.weightLoad.tank }}</span>
+                </li>
+
+                <li>
+                    <span class="left">Poids maxi remorque freiné (paliers de 12%) /non freiné (kg) :</span>
+                    <span class="right">
+                        {{ model.technicalDatas.weightLoad.maxWeightBrakedTrailer }} / {{ model.technicalDatas.weightLoad.maxWeightNoBrakedTrailer
+                        }}
+                    </span>
+                </li>
+
+                <li>
+                    <span class="left">Poids total autorisé (kg) :</span>
+                    <span class="right">{{ model.technicalDatas.weightLoad.totalWeightAllowed }}</span>
+                </li>
+            </ul>
+            <div class="cnt-button btn-right">
+                <button class="modif arrow" [routerLink]="['../../../edit', model._id, 'technicals']">Modifier</button>
+            </div>
+        </div>
+    </div>
+
+
+</div>

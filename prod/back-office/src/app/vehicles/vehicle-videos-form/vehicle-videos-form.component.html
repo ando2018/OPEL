@@ -1,0 +1,55 @@
+<div class="container form">
+
+    <div class="title">
+        <h2>Ajouter des vidéos</h2>
+        <label class="cnt-button btn ajouter" for="file"> + </label>
+    </div>
+
+    <div *ngIf="list.length === 0">
+        <img src="assets\img\aucune-video.png" alt="">
+    </div>
+    <input id="file" (change)="handleFileInput($event.target.files)" accept=" video/* " style="visibility:hidden;" type="file"
+        multiple>
+
+    <div class="list bar">
+
+        <ul class="video-container">
+            <li *ngFor="let video of list; let i = index;">
+                <video [src]="video.src" class="video" [class.deleted]="video.isDelete" controls>
+                </video>
+                <div class="option">
+                    <a *ngIf="!video.isDelete" (click)="deleteFromList(i)">
+                        <img src="assets\icons\suppr.png">
+                    </a>
+                    <a *ngIf="video.isDelete" (click)="reloadFromList(i)">
+                        <img src="assets\icons\un-suppr.png">
+                    </a>
+                </div>
+                <input [(ngModel)]="video.title" *ngIf="!video.isDelete" [class.error]="!video.title" type="text" placeholder="title" />
+                <div *ngIf="video.uploadStatus === 'UPLOADING'" class="upload">
+                    <div>
+                        <div class="cnt-loader">
+                            <div class="loader"></div>
+                        </div>
+                        <div class="txt-msg">Envoi en cours...</div>
+                    </div>
+                </div>
+                <div *ngIf="video.uploadStatus === 'UPLOADED'" class="send">
+                    <div>
+                        <div class="cnt-send"></div>
+                        <div class="txt-msg"> Envoyé </div>
+                    </div>
+                </div>
+                <div *ngIf="video.uploadStatus === 'ERROR'" class="error-send">
+                    <div>
+                        <div class="cnt-error"></div>
+                        <div class="txt-msg"> Erreur d'envoi</div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-right">
+        <button class="button arrow" [class.button-disabled]="!formIsValid" [disabled]="!formIsValid" (click)="saveVideos()">Valider</button>
+    </div>
+</div>

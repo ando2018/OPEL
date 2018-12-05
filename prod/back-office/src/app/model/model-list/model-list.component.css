@@ -1,0 +1,78 @@
+.title-model {
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.title-model .ajout {
+    background: #f7d900;
+    width: 40px;
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    border: 0;
+    margin-left: 20px;
+}
+.title-model .ajout:hover{
+    background: #ccc;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: flex;
+    padding: 5px;
+    height: 50px;
+    justify-content: space-between;
+}
+li:nth-child(odd) {
+    background: #fff;
+}
+li.selected:before {
+    content: '';
+    display: inline-block;
+    height: 60px;
+    width: 5px;
+    background: #fdbe0f;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+.model-name {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    cursor: pointer;
+}
+.option {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.option a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background: #afb1b1;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.option a:hover {
+    background: #f7d900;
+}

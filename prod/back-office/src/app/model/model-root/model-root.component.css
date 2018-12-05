@@ -1,0 +1,27 @@
+.cnt-models {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+.cnt-models *{
+    box-sizing: border-box;
+}
+.cnt-models h2 {
+    margin: 0;
+}
+.left {
+    padding-right: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    overflow: auto;
+    height: calc(100vh - 180px);
+}
+.right {
+    width: 70%;
+    background: #efeded;
+    min-height: 400px;
+    box-sizing: border-box;
+    height: calc(100vh - 180px);
+    overflow: auto;
+}

@@ -1,0 +1,41 @@
+.list-category{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    min-height: 100%;
+    padding: 30px;
+    background: #d7d7d7;
+}
+.gamme {
+    background: #fff;
+    height: 235px;
+    padding: 25px;
+    margin: 10px;
+}
+.vinette{
+    padding: 5px;
+    height: 100px;
+    width:100%;
+}
+.vinette img {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+.gamme h2{
+    font-size: 26px;
+}
+.gamme h3{
+    font-size: 22px;
+    padding: 5px 0 0 0;
+}
+.list-gamme {
+    display: flex;
+
+}
+.product {
+    padding: 5px;
+    width: 196px;
+}

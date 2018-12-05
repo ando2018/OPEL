@@ -1,0 +1,22 @@
+.container-video {
+    padding: 100px 0 0 !important;
+}
+.link-back {
+    height: 50px;
+    padding: 15px;
+}
+.link-back span{
+    background: url(../../assets/img/picto/fleche_left.svg) no-repeat 0 0;
+    background-size: auto;
+    padding-left: 20px;
+    display: block;
+    width: auto;
+}
+.content-video{
+    background: #000;
+    height: calc(100vh - 150px);
+}
+.content-video video{
+    height: 90%;
+    width: 100%;
+}

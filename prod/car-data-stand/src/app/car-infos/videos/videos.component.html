@@ -1,0 +1,18 @@
+<ngx-smart-modal #videoModal [identifier]="videoPlayerId" [id]="videoPlayerId">
+    <h1>{{ currentVideo && currentVideo.title }}</h1>
+
+    <video [src]="currentVideo.src" id="videoPlayer" [controls]="true" (ended)="videoModal.close()" *ngIf="currentVideo && currentVideo.src" [autoplay]="true"></video>
+</ngx-smart-modal>
+
+<div class="container" *ngIf="videos">
+    <div class="technical" *ngFor="let group of videos">
+        <h2>{{ group.name }}</h2>
+        <ul class="list_video">
+            <li *ngFor="let video of group.videos" (click)="playVideo(video)">
+                <span class="play"></span>
+                <video [src]="video.src" [autoplay]="false" [controls]="false" (ended)="ended($event)"></video>
+                <h4>{{ video.title }}</h4>
+            </li>
+        </ul>
+    </div>
+</div>

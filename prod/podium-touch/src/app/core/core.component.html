@@ -1,0 +1,45 @@
+<div class="container">
+    <header *ngIf="displayNavs">
+        <nav class="block-nav">
+            <ul>
+                <li routerLinkActive="selected" (click)="navigateTo(navVehicule)">
+                    <a routerLink="vehicles" title="Véhicules">
+                        <span>Véhicules</span>
+                    </a>
+                </li>
+                <li routerLinkActive="selected" (click)="navigateTo(navConfigurator)">
+                    <a routerLink="configurator" title="Configurateur">
+                        <span>Configurateur</span>
+                    </a>
+                </li>
+                <li routerLinkActive="selected" (click)="navigateTo(navAccessories)">
+                    <a routerLink="accessories" title="Accessoires">
+                        <span>Accessoires</span>
+                    </a>
+                </li>
+                <li [class.selected]="videosIsActive()"  (click)="navigateTo(navVideos)">
+                    <a routerLink="videos-categories" title="Videos">
+                        <span>Vidéos</span>
+                    </a>
+                </li>
+                <li routerLinkActive="selected"  (click)="navigateTo(navOffers)">
+                    <a routerLink="special-offers" title="Offres spéciales">
+                        <span>Nos offres</span>
+                    </a>
+                </li>
+                <li [class.selected]="brochureIsActive()"  (click)="navigateTo(navBrochure)">
+                    <a routerLink="brochure" title="Demande de brochure">
+                        <span>Demande de brochure</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <a routerLink="/home" class="link-home" title="home"  (click)="navigateTo(navLogo)">
+            <img src="assets/img/picto/picto_home.svg" alt="home" />
+        </a>
+        <a routerLink="/home" class="logo"  (click)="navigateTo(navLogo)">
+            <img src="assets/img/picto/logo_opel.svg" alt="Opel" />
+        </a>
+    </header>
+    <router-outlet></router-outlet>
+</div>

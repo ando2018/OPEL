@@ -1,0 +1,14 @@
+{
+    "name": "db-seed",
+    "version": "1.0.0",
+    "description": "Seed mongodb container database",
+    "main": "index.js",
+    "scripts": {
+        "seed": "seed"
+    },
+    "author": "AFV",
+    "license": "ISC",
+    "dependencies": {
+        "node-mongo-seeds": "^3.0.1"
+    }
+}

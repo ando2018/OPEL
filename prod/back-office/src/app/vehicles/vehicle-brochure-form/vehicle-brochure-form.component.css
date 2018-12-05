@@ -1,0 +1,168 @@
+input {
+    width: 40%;
+    font-size: 16px;
+    color: #000;
+    border: none;
+    border-bottom: 5px #F7D900 solid;
+    padding: 5px 20px;
+    font-family: 'opel sans condensed';
+    background: none;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+}
+
+
+h2{
+    font-size: 20px;
+    display: table;
+    border-bottom: #F7D900 solid 2px;
+    padding-right: 10px;
+}
+
+.scan {
+    width: 128px;
+    text-align: right;
+    padding: 20px;
+    background: #1d1e1c;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin: auto;
+    height: 140px;
+}
+.qr-code{
+    width: 100%
+}
+
+.pic-wallpaper{
+    width: 100%
+}
+.text {
+    display: block;
+    background: url('/assets/img/phone.png') left no-repeat;
+    font-size: 20px;
+}
+
+.scan > img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: 131px;
+}
+
+button{
+    background: #F7D900;
+    border: none;
+    font-size: 20px;
+    height: 38px;
+    width: 120px;
+}
+
+.no-picture {
+    width: 100%;
+    height: 200px;
+    background: #f4f4f4 url(../../../assets/img/aucune-image.png) no-repeat center;
+    border: 1px solid gray;
+     text-align: center;
+}
+.no-pdf {
+    width: 100%;
+    height: 180px;
+    background: #f4f4f4 url(../../../assets/img/aucune-pdf.png) no-repeat center;
+    border: 1px solid gray;
+     text-align: center;
+     padding: 10px 0;
+}
+.picture{
+    width: 100%;
+    height: 180px;
+    background: #f4f4f4;
+    border: 1px solid gray;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture img{
+    max-width: 100%;
+    padding: 0;
+    display: block;
+    height: 131px;
+    margin: auto;
+
+}
+
+.qr img{
+    max-width: 100%;
+    height: 131px;
+}
+
+button, label.btn {
+    width: 150px;
+    border: none;
+    border: 0;
+    cursor: pointer;
+    height: 38px;
+    width: 100px;
+    background: #f7d900;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0;
+    margin-right: 15px;
+}
+
+label.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10Px;
+
+}
+
+.eng{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+    padding-left: 30px!important;
+}
+
+.hide{
+    width: 0%;
+    padding: 0;
+}
+
+
+.bro-qr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-bro,.m-qr,.m-wallpaper{
+    width: 32%;
+    text-align: center;
+}
+
+
+.error {
+    border-bottom: solid 4px orangered !important;
+}
+.visualerror{
+    border: solid 4px orangered !important;
+}
+
+button:hover,
+.button-disabled {
+    background: #ccc;
+}
+.save{
+    padding: 15px 1.5% 0 0;
+}
+.label-error{
+    font-weight: normal;
+    font-size: small;
+}

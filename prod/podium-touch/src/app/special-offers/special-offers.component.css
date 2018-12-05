@@ -1,0 +1,24 @@
+@import '~swiper/dist/css/swiper.min.css';
+
+.main-container.slide-offre{
+    padding: 100px 0 0 !important;
+}
+.container {
+    width: 100%;
+    height: 625px;
+    position: fixed;
+    top: 0;
+    background: #fff;
+}
+.slide-offre swiper{
+    width:100%;
+    height: 100%;
+}
+.slide-offre swiper .swiper-slide{
+    width: 100% !important;
+}
+.swiper-slide img {
+    height: auto;
+    min-width: 100%;
+    width: 100%;
+}

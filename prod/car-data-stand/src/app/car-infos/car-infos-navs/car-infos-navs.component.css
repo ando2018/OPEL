@@ -1,0 +1,79 @@
+.container {
+    background: #ccc;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    position: fixed;
+    top: 730px;
+}
+
+.container a {
+    background: url('/assets/img/bg-tabs.png') right center;
+    background-repeat: no-repeat;
+    color: #000;
+    font-size: 25px;
+    height: 100px;
+    text-align: center;
+    padding: 20px 30px 0 0;
+    width: 25%;
+}
+
+.container a:last-child {
+    background: #ccc;
+}
+
+.container .active:last-child {
+    background: #fff;
+}
+
+.container a {
+    position: relative;
+    font-weight: 800;
+}
+
+.container a.active {
+    background: url('/assets/img/bg.svg');
+    background-position: right, bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 800;
+    position: relative;
+}
+
+.container a::before {
+    content: '';
+    position: absolute;
+    height: 7px;
+    width: 0%;
+    background: #f7d900;
+    bottom: 10%;
+    right: 0;
+    left: 13%;
+    z-index: 999;
+    transition: 0.3s;
+}
+
+.container a.active::before {
+    content: '';
+    position: absolute;
+    height: 7px;
+    width: 60%;
+    background: #f7d900;
+    bottom: 10%;
+    right: 0;
+    left: 13%;
+    z-index: 999;
+}
+
+.container a.active::after {
+    content: '';
+    position: absolute;
+    height: 102px;
+    width: 42px;
+    background: url('/assets/img/bg-active.svg');
+    background-size: cover;
+    bottom: 0;
+    top: 0;
+    left: -40px;
+}

@@ -1,0 +1,55 @@
+
+
+h2 {
+    display: table;
+    border-bottom: #F7D900 solid 2px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.int {
+    margin-top: 40px;
+}
+
+button{
+    background: #F7D900;
+    border: none;
+    font-size: 20px;
+    height: 38px;
+    width: 120px;
+}
+
+.chemin{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+}
+
+.show-img img{
+    width: 25%;
+}
+
+.show-img h2{
+    display: block;
+    background: #F7D900;
+    padding: 10px;
+    font-size: 20px;
+    width: 35%;
+}
+
+.v-list{
+    position: relative;
+    list-style: none;
+}
+
+.v-list:before{
+    content: "";
+    height: 5px;
+    width: 5px;
+    background: #F7D900;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: -15px;
+}
+

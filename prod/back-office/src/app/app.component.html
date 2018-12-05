@@ -1,0 +1,29 @@
+<div>
+    <router-outlet>
+        <app-loader *ngIf="isLoading"></app-loader>
+    </router-outlet>
+    <ngx-smart-modal [identifier]="alertFormModalId">
+        <div>
+            <h2>Confirmation </h2>
+        </div>
+        <div class="txt-confirmation">
+            Voulez vous supprimer l'enregistrement ?
+        </div>
+        <div class="cnt-button">
+            <button class="arrow" (click)="annulation()">Non</button>
+            <button class="arrow" (click)="validation()">Oui</button>
+        </div>
+    </ngx-smart-modal>
+    <ngx-smart-modal [identifier]="alertLogoutFormModalId">
+        <div>
+            <h2>Confirmation </h2>
+        </div>
+        <div class="txt-confirmation">
+            Êtes-vous sûr de vouloir vous déconnecter?
+        </div>
+        <div class="cnt-button">
+            <button class="arrow" (click)="annulationLogout()">Non</button>
+            <button class="arrow" (click)="validationLogout()">Oui</button>
+        </div>
+    </ngx-smart-modal>
+</div>

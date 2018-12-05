@@ -1,0 +1,79 @@
+<div>
+    <div>
+        <h2>
+            <span class="required">
+                Nom brochure
+            </span>
+        </h2>
+        <span>
+            {{vehicle.brochureName}}
+        </span>
+    </div>
+    <br>
+    <div class="bro-qr">
+        <div class=m-bro>
+            <h2>Pdf</h2>
+            <div *ngIf="!brochureFile" class="no-pdf"></div>
+            <div *ngIf="brochureFile" class="picture">
+                <div *ngIf="brochureFile" class="">
+                    <a [href]="brochureFile" target="_blank">
+                        <img src="assets\img\pdf.png">
+                        <span>{{getFileName(brochureFile)}}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class=m-qr>
+            <h2>Code QR</h2>
+            <div class="picture">
+                <div [class.scan]="qrCodeSrc">
+                    <div *ngIf="isMock">
+                        <div *ngIf="!qrCodeSrc" class="no-picture"></div>
+                        <div *ngIf="qrCodeSrc" class="qr">
+                            <img (click)="show('assets\img\insigna-qrcode.png')" src="assets\img\insigna-qrcode.png">
+                        </div>
+                    </div>
+                    <div *ngIf="!isMock">
+                        <div *ngIf="!qrCodeSrc" class="no-picture"></div>
+                        <div *ngIf="qrCodeSrc" class="qr">
+                            <img [src]="qrCodeSrc" (click)="show(qrCodeSrc)">
+                        </div>
+                    </div>
+                    <span *ngIf="qrCodeSrc" class="text">Scan me</span>
+                </div>
+            </div>
+        </div>
+        <div class="m-wallpaper">
+            <h2>Fond d'écran</h2>
+            <div class="picture">
+                <div>
+                    <div *ngIf="isMock">
+                        <div *ngIf="!wallPaperSrc" class="no-picture"></div>
+                        <div *ngIf="wallPaperSrc" class="qr">
+                            <img (click)="show('assets\img\insigna-qrcode.png')" src="assets\img\insigna-qrcode.png">
+                        </div>
+                    </div>
+                    <div *ngIf="!isMock">
+                        <div *ngIf="!wallPaperSrc" class="no-picture"></div>
+                        <div *ngIf="wallPaperSrc" class="qr">
+                            <img [src]="wallPaperSrc" (click)="show(wallPaperSrc)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="btn-right">
+        <button class="arrow" [routerLink]="['../../../edit', vehicle?._id, 'brochures']">Modifier</button>
+    </div>
+</div>
+
+
+<!-- MODAL: -->
+
+<div class="modal" [style.display]="shown ? 'block' : 'none' ">
+    <span class="close" (click)="shown = false;">&times;</span>
+    <img class="modal-content" [src]="selectedSlide">
+    <div id="caption">{{ selectedSlideFilename }}</div>
+</div>

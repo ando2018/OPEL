@@ -1,0 +1,70 @@
+<form class="form" [formGroup]="form" (submit)="formValidation()  && form.valid && saveVehicle()">
+    <fieldset>
+
+        <legend>Véhicule</legend>
+        <label for="name" class="required">Nom
+        </label>
+        <small class="label-error" *ngIf="isRequired('name')">
+            <p *ngIf="form.get('name').errors.required">(requis)</p>
+            <p *ngIf="form.get('name').errors.maxlength">(longueur maximale 100 caractères)</p>
+        </small>
+        <input formControlName="name" [class.error]="isRequired('name')" class="required" type="text" />
+        <br>
+        <label for="gamme" class="required">Gamme </label>
+        <small class="label-error" *ngIf="isRequired('gammeId')">
+            <p *ngIf="form.get('gammeId').errors.required">(requis)</p>
+        </small>
+        <br>
+        <select formControlName="gammeId" [class.error]="isRequired('gammeId')">
+            <option *ngFor="let gamme of gammes" [ngValue]="gamme._id">{{ gamme.name }}</option>
+        </select>
+        <br>
+
+        <label class="required">Visuel</label>
+        <small class="label-error" *ngIf="isRequired('visual')">
+            <p *ngIf="form.get('visual').errors.required">(requis)</p>
+        </small>
+        <div *ngIf="!visualUrl" class="no-picture" [class.visualerror]="isRequired('visual')">
+        </div>
+        <div *ngIf="visualUrl" class="picture">
+            <img id="visualVehicle" [src]="visualUrl" />
+        </div>
+        <br>
+        <div class="btn-right">
+            <label class="cnt-button" for="file" class="btn arrow">{{ visualUrl ? 'Modifier' : 'Ajouter' }}</label>
+            <input id="file" style="visibility:hidden;" accept="image/*" type="file" (change)="handleFileInput($event.target.files)"
+            />
+        </div>
+    </fieldset>
+
+    <fieldset formGroupName="equipments">
+
+        <legend>Equipements</legend>
+
+        <div formArrayName="inside">
+            <label for="inside">Intérieur</label>
+            <button class="ajouter" (click)="addEquipment('inside')" type="button">+</button>
+            <div class="form" *ngFor="let equipment of insideEquipments.controls; let i = index">
+                <input [formControlName]="i" class="input-equipment" type="text" />
+                <span class="remove" (click)="removeEquipment('inside', i)">
+                    <img src="assets\icons\suppr.png">
+                </span>
+            </div>
+        </div>
+
+        <div formArrayName="outside">
+            <label for="outside">Extérieur</label>
+            <button class="ajouter" (click)="addEquipment('outside')" type="button">+</button>
+            <div class="form" *ngFor="let equipment of outsideEquipments.controls; let i = index">
+                <input [formControlName]="i" class="input-equipment" type="text" />
+                <span class="remove" (click)="removeEquipment('outside', i)">
+                    <img src="assets\icons\suppr.png">
+                </span>
+            </div>
+        </div>
+
+    </fieldset>
+    <div class="btn-right">
+        <button class="arrow" [class.button-disabled]="!this.form.valid" type="submit">Sauver</button>
+    </div>
+</form>

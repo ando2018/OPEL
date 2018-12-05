@@ -1,0 +1,241 @@
+.main-container {
+    padding: 140px 50px 40px;
+    height: 100vh;
+}
+
+.head-brand {
+    position: relative;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.brandList {
+    background: #c5c5c5;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 25%;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -moz-transition: max-height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -o-transition: max-height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -ms-transition: max-height 0.3s ease-in-out, box-shadow 0.6s linear;
+    transition: max-height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+.brandList.open{
+    padding: 0;
+    height: auto;
+    max-height: 600px;
+}
+.brandList li{
+    padding: 10px 10px;
+}
+.brandList li.selected {
+    border-left: solid 3px #f7d900;
+    padding-left: 20px;
+}
+.selectedBrand{
+    border-left: 5px solid #f7d900;
+    font-size: 48px;
+    line-height: 48px;
+    padding-left: 30px;
+    cursor: auto;
+    width:100%;
+}
+.arrow-down {
+    background: url(../../assets/img/picto/fleche_bas.svg) no-repeat;
+    background-size: 100%;
+    height: 18px;
+    width: 25px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.content-form {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.col-form {
+    width: 564px;
+
+}
+.form-main h2 {
+    background: #f7d900;
+    color: #000;
+    font-size: 45.83px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    padding: 10px 22px;
+    width: 564px;
+}
+
+.form-main p {
+    font-size: 25px;
+    line-height: normal;
+    margin-bottom: 40px;
+    padding-right: 25px;
+    width: 564px;
+}
+
+.line {
+    margin-bottom: 40px;
+}
+
+.content-form input[type="text"],
+.content-form input[type="password"],
+.content-form input[type="email"],
+.content-form input[type="tel"],
+.content-form select {
+    background: transparent;
+    border: 0;
+    border-bottom: 6px solid #f7d900;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+}
+
+.line-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+.content-form button[type="submit"] {
+    border: 0;
+    cursor: pointer;
+    height: 58px;
+    width: 180px;
+    background: #f7d900;
+    font-size: 45.83px;
+    font-weight: 700;
+    line-height: normal;
+}
+.content-form .line-btn span{
+    display: block;
+    padding: 18px 30px;
+}
+.content-form .civ {
+    width: 130px;
+}
+
+.scan {
+    width: 360px;
+    padding: 20px;
+    background: #1D1E1C;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+.img-scan{
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    height:319px;
+}
+.text {
+    display: block;
+    background: url('/assets/img/phone.png') left no-repeat;
+    height: 64px;
+    line-height: 64px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.error {
+    border-bottom: solid 4px orangered !important;
+}
+
+span.error {
+    border: none !important;
+    color: orangered;
+    display: block;
+}
+.error-messages {
+    color: orangered;
+}
+
+.error-messages > p.error-message {
+    line-height: 25px;
+}
+.content-form .civ span.error{
+    width: 120%;
+}
+
+.container {
+    min-height: 100vh !important;
+}
+.container-video {
+    background: #d7d7d7;
+    padding: 120px 20px 20px !important;
+    min-height: 100vh;
+    height: auto;
+}
+.list_video {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 25px 0 0 0;
+}
+
+.list_video li {
+    background: #fff;
+    width: 12%;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    margin: 10px;
+}
+
+.list_video li.category-col-2 {
+    width: 25%;
+}
+.list_video li.category-col-3 {
+    width: 38%;
+}
+.list_video li.category-col-4 {
+    width: 50%;
+}
+.list_video li.category-col-2 div.list-cat-vehicl,
+.list_video li.category-col-3 div.list-cat-vehicl,
+.list_video li.category-col-4 div.list-cat-vehicl{
+    display: flex;
+}
+
+.list_video li div.list-cat-vehicl div.image-container{
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+}
+.list_video li div.list-cat-vehicl div.image {
+    height: 125px;
+}
+.list_video li img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.list_video li.category-col-2 div.list-cat-vehicl img,
+.list_video li.category-col-3 div.list-cat-vehicl img{
+    width: 76%;
+}
+
+h4 {
+    background: #FFF;
+    color: #000;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: -7px;
+    padding: 15px;
+    text-align: left;
+}
+
+.technical ul li {
+    position: relative;
+}

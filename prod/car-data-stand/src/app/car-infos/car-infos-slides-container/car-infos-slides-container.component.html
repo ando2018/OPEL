@@ -1,0 +1,23 @@
+<div class="swiper-container swiper-wrapper" *ngIf="!showPriceDetails && !showBrochureSent">
+    <swiper [config]="config" (indexChange)="indexChange($event)" [(index)]="currentIndex">
+        <div class="swiper-slide">
+            <app-equipments></app-equipments>
+        </div>
+
+        <div class="swiper-slide">
+            <app-options></app-options>
+        </div>
+
+        <div class="swiper-slide">
+            <app-technical-datas></app-technical-datas>
+        </div>
+
+        <div class="swiper-slide">
+            <app-brochure></app-brochure>
+        </div>
+
+        <div class="swiper-slide">
+            <app-environmental-infos></app-environmental-infos>
+        </div>
+    </swiper>
+</div>

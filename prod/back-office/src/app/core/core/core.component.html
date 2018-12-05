@@ -1,0 +1,27 @@
+<div class="container">
+    <nav class="menu">
+        <ul>
+            <li [ngClass]="{active: getCurrentRout('vehicles') }">
+                <a routerLink="vehicles">
+                    Véhicules
+                </a>
+            </li>
+            <li [ngClass]="{active: getCurrentRout('special-offers') }">
+                <a routerLink="special-offers">
+                    Offres spéciales
+                </a>
+            </li>
+            <li [ngClass]="{active: getCurrentRout('confidentiality') }">
+                <a routerLink="confidentiality">
+                    Confidentialités
+                </a>
+            </li>
+            <li class="logout">
+                <a (click)="openConfirmationLogout()">
+                    Log out
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <router-outlet></router-outlet>
+</div>

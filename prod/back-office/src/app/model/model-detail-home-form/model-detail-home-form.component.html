@@ -1,0 +1,53 @@
+<div *ngIf="form">
+    <form class="form" [formGroup]="form" (submit)="formValidation() && form.valid && saveModel()">
+
+        <label for="name" class="lab required">Nom du modèle</label>
+        <small class="label-error" *ngIf="isRequired('name')">
+            <p *ngIf="form.get('name').errors.required">(requis)</p>
+            <p *ngIf="form.get('name').errors.maxlength">(longueur maximale 50 caractères)</p>
+        </small>
+        <input formControlName="name" [class.error]="isRequired('name')" type="text" />
+
+
+        <label for="description" class="lab required">Description</label>
+        <small class="label-error" *ngIf="isRequired('description')">
+            <p *ngIf="form.get('description').errors.required">(requis)</p>
+            <p *ngIf="form.get('description').errors.maxlength">(longueur maximale 300 caractères)</p>
+        </small>
+        <input formControlName="description" [class.error]="isRequired('description')" type="text" />
+
+        <div class="model-add-slide">
+            <label class="lab required">Slides</label>
+            <small class="label-error" *ngIf="isRequired('visuals')">
+                <p *ngIf="isRequired('visuals')">(requis)</p>
+            </small>
+            <label class="cnt-button btn" for="file"> + </label>
+            <input id="file" style="visibility:hidden;" type="file" accept="image/*" (change)="handleFileInput($event.target.files)"
+                multiple/>
+        </div>
+
+        <div class="list bar">
+            <ul>
+                <li *ngIf="list.length === 0 " [class.no-img]="list.length === 0" [class.visualerror]="isRequired('visuals')">
+                    <img src="assets/img/aucune.png" alt="">
+                </li>
+                <li *ngFor="let slide of list; let i = index;">
+                    <img [src]="slide.src" [class.deleted]="slide.isDelete">
+                    <div class="filename"> {{ slide.name }}</div>
+                    <div class="option">
+                        <a *ngIf="!slide.isDelete" (click)="deleteFromList(i)">
+                            <img src="assets\icons\suppr.png">
+                        </a>
+                        <a *ngIf="slide.isDelete" (click)="reloadFromList(i)">
+                            <img src="assets\icons\un-suppr.png">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cnt-button btn-right">
+            <button class="arrow" type="submit" [class.button-disabled]="!this.form.valid">Sauver</button>
+        </div>
+    </form>
+</div>

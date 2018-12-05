@@ -1,0 +1,16 @@
+<div class="container" *ngIf="!showPriceDetails && !showBrochureRequestSent">
+    <a (click)="select(equipments)" [class.active]="currentMenu == equipments">Equipements
+        <br> de série </a>
+    <a (click)="select(modelOptions)" [class.active]="currentMenu == modelOptions">Options
+        <br> du modèle
+    </a>
+    <a (click)="select(technicalDatas)" [class.active]="currentMenu == technicalDatas">Données
+        <br> techniques
+    </a>
+    <a (click)="select(brochureRequest)" [class.active]="currentMenu == brochureRequest">Demande
+        <br> de brochure</a>
+    <a (click)="select(co2conso)" [class.active]="currentMenu == co2conso">Consommation
+        <br>émission CO
+        <sub>2</sub>
+    </a>
+</div>

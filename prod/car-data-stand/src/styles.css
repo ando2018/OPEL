@@ -1,0 +1,250 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~ngx-smart-modal/ngx-smart-modal.css";
+
+.nsm-dialog.nsm-dialog-open {
+    opacity: 1;
+    visibility: visible;
+    min-height: 200px;
+    width: 100%;
+    max-width: 99%;
+    border-radius: 0 !important;
+    right: 0;
+    left: 0;
+    top: 0%;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 12px;
+    background: none;
+}
+
+.nsm-dialog-btn-close {
+    border: 0;
+    background: none;
+    color: #2d2d2d;
+    position: absolute;
+    top: 33px;
+    right: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+video {
+    width: 100%;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+body.dialog-open ngx-smart-modal {
+    z-index: 999999999999999999999999999999999999999;
+}
+
+/*------------------------reset--------------------------------*/
+
+body,
+ul,
+li,
+ol,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+strong,
+b {
+    font-weight: 700;
+    font-family: 'Opel Sans Condensed';
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Opel Sans Condensed';
+    color: #000;
+    background: #fff;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: #656565;
+    outline: none;
+}
+
+a:focus,
+a:active,
+a:hover {
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    border: none;
+    width: auto;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+/*------------------------fonts--------------------------------*/
+
+@font-face {
+    font-family: 'Opel Sans Condensed';
+    src: url('/assets/fonts/OpelSansCondensed.eot');
+    src: url('/assets/fonts/OpelSansCondensed.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/OpelSansCondensed.woff2') format('woff2'), url('/assets/fonts/OpelSansCondensed.woff') format('woff'), url('/assets/fonts/OpelSansCondensed.svg#Opel Sans Condensed') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family: 'Opel Sans Condensed';
+    src: url('/assets/fonts/OpelSansCondensedBold.eot');
+    src: url('/assets/fonts/OpelSansCondensedBold.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/OpelSansCondensedBold.woff2') format('woff2'), url('/assets/fonts/OpelSansCondensedBold.woff') format('woff'), url('/assets/fonts/OpelSansCondensedBold.svg#Opel Sans Condensed Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family: 'Opel Sans italic';
+    src: url('/assets/fonts/OpelSansBoldItalic.eot');
+    src: url('/assets/fonts/OpelSansBoldItalic.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/OpelSansBoldItalic.woff2') format('woff2'), url('/assets/fonts/OpelSansBoldItalic.woff') format('woff'), url('/assets/fonts/OpelSansBoldItalic.svg#Opel Sans Bold Italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family: 'Opel Sans italic';
+    src: url('/assets/fonts/OpelSansItalic.eot');
+    src: url('/assets/fonts/OpelSansItalic.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/OpelSansItalic.woff2') format('woff2'), url('/assets/fonts/OpelSansItalic.woff') format('woff'), url('/assets/fonts/OpelSansItalic.svg#Opel Sans Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family: 'Opel Sans Condensed ExtraBold';
+    src: url('/assets/fonts/OpelSansCondensedExtraBold.eot');
+    src: url('/assets/fonts/OpelSansCondensedExtraBold.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/OpelSansCondensedExtraBold.woff2') format('woff2'), url('/assets/fonts/OpelSansCondensedExtraBold.woff') format('woff'), url('/assets/fonts/OpelSansCondensedExtraBold.svg#Opel Sans Condensed ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-02DC;
+}
+
+body {
+    font-family: Opel Sans Condensed;
+}
+
+/*-----------------------------title--------------------------------*/
+
+h2 {
+    background: #f7d900;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 15px 25px;
+    line-height: 35px;
+}
+
+/*----------------------------list-----------------------------------*/
+
+.list {
+    margin: 15px 0 0 0;
+}
+
+.list li {
+    border-bottom: 1px solid #cccccc;
+    font-size: 30px;
+    padding: 15px 0;
+    line-height: 30px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+swiper>.swiper.s-wrapper.swiper-container-horizontal>.swiper-scrollbar,
+swiper>.swiper.s-wrapper .swiper-pagination {
+    display: none;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    background: url('/assets/img/prev.png') center #fff !important;
+    background-repeat: no-repeat !important;
+    left: 0px !important;
+    padding: 25px 15px;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background: url('/assets/img/next.png') center #fff !important;
+    background-repeat: no-repeat !important;
+    right: 0 !important;
+    padding: 25px 15px;
+}
+
+swiper>.swiper.s-wrapper .swiper-wrapper .swiper-slide {
+    overflow: hidden !important;
+    text-align: center;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #f7d900;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ccc;
+}

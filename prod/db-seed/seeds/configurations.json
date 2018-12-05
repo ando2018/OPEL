@@ -1,0 +1,19 @@
+[
+    {
+        "borneId": "br1",
+        "vehiculeName": "ADAM",
+        "vehiculeModel": "UNLIMITED",
+        "options": {},
+        "price": 12520
+    },
+    {
+        "borneId": "br2",
+        "vehiculeName": "ADAM 2",
+        "vehiculeModel": "UNLIMITED 2",
+        "options": {
+            "volant": "cuir",
+            "climatisation": "manuelle"
+        },
+        "price": 12520
+    }
+]

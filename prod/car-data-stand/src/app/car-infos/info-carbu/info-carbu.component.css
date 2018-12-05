@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    position: fixed;
+    bottom: 158px;
+    z-index: 9999999;
+    height: 100px;
+    background: #fff;
+    font-size: 28px;
+}
+
+.carbu {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: right;
+    padding: 20px 25px 0 0;
+    vertical-align: right;
+}
+
+.carbu span {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.co {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+span.bold {
+    font-weight: 800;
+    padding: 20px 0 0 0 !important;
+    right: 0;
+}

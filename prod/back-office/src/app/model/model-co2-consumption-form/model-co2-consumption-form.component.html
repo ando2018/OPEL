@@ -1,0 +1,38 @@
+<div>
+    <form class="form" [formGroup]="form" (submit)="formValidation() && form.valid && saveCo2Consumption()">
+        <label for="carburant" class="required">Carburant</label>
+        <small class="label-error" *ngIf="isRequired('carburant')">
+            <p *ngIf="form.get('carburant').errors.required">(requis)</p>
+        </small>
+        <input formControlName="carburant" [class.error]="isRequired('carburant')" type="text" />
+        <br>
+        <label for="c02" class="required">CO2</label>
+        <small class="label-error" *ngIf="isRequired('c02')">
+            <p *ngIf="form.get('c02').errors.required">(requis)</p>
+        </small>
+        <input formControlName="c02" [class.error]="isRequired('c02')" type="text" />
+        <br>
+        <label for="mixte" class="required">Consommation mixte</label>
+        <small class="label-error" *ngIf="isRequired('mixte')">
+            <p *ngIf="form.get('mixte').errors.required">(requis)</p>
+        </small>
+        <input formControlName="mixte" [class.error]="isRequired('mixte')" type="text" />
+        <br>
+        <label for="urban" class="required">Consommation urbaine</label>
+        <small class="label-error" *ngIf="isRequired('urban')">
+            <p *ngIf="form.get('urban').errors.required">(requis)</p>
+        </small>
+        <input formControlName="urban" [class.error]="isRequired('urban')" type="text" />
+        <br>
+        <label for="extraUrban" class="required">Consommation extra urbaine</label>
+        <small class="label-error" *ngIf="isRequired('extraUrban')">
+            <p *ngIf="form.get('extraUrban').errors.required">(requis)</p>
+        </small>
+        <input formControlName="extraUrban" [class.error]="isRequired('extraUrban')" type="text" />
+        <br>
+        <small></small>
+        <div class="cnt-button btn-right">
+            <button class="arrow" type="submit" [class.button-disabled]="!form.valid">Sauver</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,628 @@
+[
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "ADAM",
+        "gammeId": "",
+        "gammeName": "ADAM",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "ADAM_18.5_Long-F_edit_my19.pdf",
+        "brochureQrCode": "adam.png",
+        "brochureName": "ADAM",
+        "brochureWallpaper": "ADAM_Glam_MY185_21x9.jpg",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0U_08/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03470",
+        "name": "ADAM ROCKS",
+        "gammeId": "",
+        "gammeName": "ADAM",
+        "visual": "G1_V2_ADAM_ADAM_ROCKS.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam-rocks/points-forts.html",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0U_98/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03471",
+        "name": "TOUS VÉHICULES ADAM",
+        "gammeId": "",
+        "gammeName": "ADAM",
+        "visual": "G1_V3_ADAM_TOUS_VEHICULES_ADAM.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam.html",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "ASTRA",
+        "gammeId": "",
+        "gammeName": "ASTRA",
+        "visual": "G2_V5_ASTRA_ASTRA_SPORTS_TOURER.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03472",
+        "name": "ASTRA 5 PORTES",
+        "gammeId": "",
+        "gammeName": "ASTRA",
+        "visual": "G2_V4_ASTRA_ASTRA_5_PORTES.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Astra_K_Range_18.0_Main-F30juin.pdf",
+        "brochureQrCode": "astra.png",
+        "brochureName": "ASTRA",
+        "brochureWallpaper": "ASTRA_17_e03_231_master.jpg",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-astra/astra-5-portes/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Astra_K_-_5_portes",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0B_68/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "ASTRA GTC",
+        "gammeId": "",
+        "gammeName": "ASTRA",
+        "visual": "G2_V26_Opel_GTC_MY17_288x161_mrm_2.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Astra_GTC",
+        "configuratorIframeUrl": "",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03473",
+        "name": "ASTRA SPORTS TOURER",
+        "gammeId": "",
+        "gammeName": "ASTRA",
+        "visual": "G2_V5_ASTRA_ASTRA_SPORTS_TOURER.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-astra/astra-sports-tourer/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Astra_K_Sports_Tourer",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0B_35/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03474",
+        "name": "COMBO LIFE",
+        "gammeId": "",
+        "gammeName": "COMBO",
+        "visual": "G3_V6_COMBO_COMBO_LIFE.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/new-combo/nouveau-combo/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Combo_D_Cargo",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0D_26/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "6b27cd0c41cc840019f03474",
+        "name": "COMBO CARGO",
+        "gammeId": "",
+        "gammeName": "COMBO",
+        "visual": "COMBO_CARGO_NEW.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Combo_Commercial_17.0_Long-F.pdf",
+        "brochureQrCode": "combo-commercial.png",
+        "brochureName": "COMBO CARGO",
+        "brochureWallpaper": "COMBO-CARGO_cm18_e01_047_master.jpg",
+        "vehicleIframeUrl": "",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0D_05/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "",
+        "name": "COMBO CARGO CABINE APPROFONDIE",
+        "gammeId": "",
+        "gammeName": "COMBO",
+        "visual": "COMBO_CARGO_CABINE_APPROFONDIE.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0D_C5/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03475",
+        "name": "CORSA 3 PORTES",
+        "gammeId": "",
+        "gammeName": "CORSA",
+        "visual": "G4_V7_CORSA_CORSA_3_PORTES.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Corsa_18.5_Main-F.pdf",
+        "brochureQrCode": "corsa.png",
+        "brochureName": "CORSA",
+        "brochureWallpaper": "CORSA_Opel_Corsa_Exterior3_21x9_co165_e04_032.jpg",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-corsa/3-portes/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Corsa_E_3_portes",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0S_08/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03476",
+        "name": "CORSA 5 PORTES",
+        "gammeId": "",
+        "gammeName": "CORSA",
+        "visual": "G4_V8_CORSA_CORSA_5_PORTES.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-corsa/5-portes/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Corsa_E_5_portes",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0S_68/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03477",
+        "name": "CROSSLAND X",
+        "gammeId": "",
+        "gammeName": "CROSSLAND X",
+        "visual": "G5_V9_CROSSLAND_X_CROSSLAND_X.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Crossland_X_18.5_Main-F_edit_my19.pdf",
+        "brochureQrCode": "crossland.png",
+        "brochureName": "CROSSLAND X",
+        "brochureWallpaper": "CROSSLAND_Opel_Crossland_X_Exterior_21x9_cr18_e01_014.jpg",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/crossland-x/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Crossland_X",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0G_75/2019A/all/",
+        "videos": [
+            {
+                "title": "ESPACE ET CONFORT",
+                "fileName": "opel-crossland-x-espace-et-confort.mp4"
+            },
+            {
+                "title": "PHARE LED",
+                "fileName": "opel-crossland-x-phare-led.mp4"
+            },
+            {
+                "title": "UN OEIL SUR LA ROUTE",
+                "fileName": "opel-crossland-x-toujours-un-oeil-sur-la-route.mp4"
+            },
+            {
+                "title": "TEASER",
+                "fileName": "Opel_CrosslandX_Teaser_V6_1.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03477",
+        "name": "GRANDLAND X",
+        "gammeId": "",
+        "gammeName": "GRANDLAND X",
+        "visual": "G6_V10_GRANDLAND_X_GRANDLAND_X.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Grandland_X_18.0_Flyer-F.pdf",
+        "brochureQrCode": "grandland.png",
+        "brochureName": "GRANDLAND X",
+        "brochureWallpaper": "GRANDLAND-X_opel_ultimate_grandland_x_highlights_21x9_gr185_e01_d001.jpg",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/grandland-x/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Grandland_X",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/02_75/2019A/all/",
+        "videos": [
+            {
+                "title": "LA TECHNOLOGIE EN GRAND",
+                "fileName": "opel-grandland-x-la-technologie-en-grand.mp4"
+            },
+            {
+                "title": "LE DESIGN EN GRAND",
+                "fileName": "opel-grandland-x-le-design-en-grand.mp4"
+            },
+            {
+                "title": "LE VOYAGE EN GRAND",
+                "fileName": "opel-grandland-x-le-voyage-en-grand.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "KARL",
+        "gammeId": "",
+        "gammeName": "KARL",
+        "visual": "G7_V11_KARL_KARL.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Karl_19.0_Long-F.pdf",
+        "brochureQrCode": "karl.png",
+        "brochureName": "KARL",
+        "brochureWallpaper": "KARL_Opel_KARL_ROCKS_Exterior_21x9_ka19_e02_094.jpg",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-karl/karl/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/KARL",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0H_48/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03478",
+        "name": "KARL ROCKS",
+        "gammeId": "",
+        "gammeName": "KARL",
+        "visual": "G7_V12_KARL_KARL_ROCKS.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-karl/karl-rocks/points-forts.html",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03479",
+        "name": "MOKKA X",
+        "gammeId": "",
+        "gammeName": "MOKKA X",
+        "visual": "G8_V13_MOKKA_X_MOKKA_X.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Mokka_X_18.0_Main-F.PDF",
+        "brochureQrCode": "mokka.png",
+        "brochureName": "MOKKA X",
+        "brochureWallpaper": "MOKKA_Opel_Mokka_X_Engines_21x9_mok17_e01_008.jpg",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/mokka-x/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Mokka_X",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0I_76/2019A/all/",
+        "videos": [
+            {
+                "title": "OPEL EYE",
+                "fileName": "opel-mokka-x-opel-eye.mp4"
+            },
+            {
+                "title": "CONFORT À BORD",
+                "fileName": "opel-mokka-x-confort-a-bord.mp4"
+            },
+            {
+                "title": "SMARTCAR",
+                "fileName": "opel-mokka-x-smartcar.mp4"
+            },
+            {
+                "title": "PHARES INTELLIGENTS",
+                "fileName": "opel-mokka-x-phares-intelligents.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "MOVANO FOURGON",
+        "gammeId": "",
+        "gammeName": "MOVANO",
+        "visual": "G9_V14_MOVANO_MOVANO_COMBI.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Archiv_Movano_Panel_Van_18.0_Long-F.pdf",
+        "brochureQrCode": "archiv_panel.png",
+        "brochureName": "MOVANO FOURGON",
+        "brochureWallpaper": "MOVANO-FOURGON_Opel_Movano_Van_21x9_12_SF_cvra13_e01_063.jpg",
+        "vehicleIframeUrl": "",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "MOVANO TRANSPORT DE PERSONNES",
+        "gammeId": "",
+        "gammeName": "MOVANO",
+        "visual": "G9_V14_MOVANO_MOVANO_COMBI.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Archiv_Movano_CombiBus_18.0_Long-F.pdf",
+        "brochureQrCode": "archiv_combibus.png",
+        "brochureName": "MOVANO TRANSPORT DE PERSONNES",
+        "brochureWallpaper": "MOVANO_TRANSPORT_PERSONNES-148941376.148941377_master.jpg",
+        "vehicleIframeUrl": "",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347a",
+        "name": "MOVANO COMBI",
+        "gammeId": "",
+        "gammeName": "MOVANO",
+        "visual": "G9_V14_MOVANO_MOVANO_COMBI.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Archiv_Movano_Conversions_18.0_Long-F.pdf",
+        "brochureQrCode": "archiv_conversions.png",
+        "brochureName": "MOVANO CHÂSSIS CABINE ET TRANSFORMATIONS",
+        "brochureWallpaper": "Opel_Conversions_21x9_mo15_e03_753.jpg",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-movano/combi/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Movano_B",
+        "configuratorIframeUrl": "",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347b",
+        "name": "NOUVELLE INSIGNIA COUNTRY TOURER",
+        "gammeId": "",
+        "gammeName": "NOUVELLE INSIGNIA",
+        "visual": "G10_V15_NOUVELLE_INSIGNA_NOUVELLE_INSIGNA_COUNTRY_TOURER.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-insignia/Insignia%20Country%20Tourer/model-overview.html",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0J_47/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "INSIGNIA GRAND SPORT",
+        "gammeId": "",
+        "gammeName": "INSIGNIA",
+        "visual": "G10_V16_NOUVELLE_INSIGNA_NOUVELLE_INSIGNA_GRAND_SPORT.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Insignia_B_Grand_Sport",
+        "configuratorIframeUrl": "",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "INSIGNIA SPORTS TOURER",
+        "gammeId": "",
+        "gammeName": "INSIGNIA",
+        "visual": "G10_V18_NOUVELLE_INSIGNA_NOUVELLE_INSIGNA_SPORT_TOURER.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Insignia_B_Sports_Tourer",
+        "configuratorIframeUrl": "",
+        "videos": [
+            {
+                "title": "SPORTS TOURER",
+                "fileName": "2.SM_Opel Insignia Sports Tourer.mp4"
+            },
+            {
+                "title": "CURTAIN RAISER",
+                "fileName": "Insignia_Curtain Raiser_FR.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347c",
+        "name": "NOUVELLE INSIGNIA GRAND SPORT",
+        "gammeId": "",
+        "gammeName": "NOUVELLE INSIGNIA",
+        "visual": "G10_V16_NOUVELLE_INSIGNA_NOUVELLE_INSIGNA_GRAND_SPORT.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-insignia/grand-sport/points-forts.html",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0J_68/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347d",
+        "name": "NOUVELLE INSIGNIA GSI",
+        "gammeId": "",
+        "gammeName": "NOUVELLE INSIGNIA",
+        "visual": "G10_V17_NOUVELLE_INSIGNA_NOUVELLE_INSIGNA_GSI.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-insignia/gsi/model-overview.html",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347e",
+        "name": "NOUVELLE INSIGNIA SPORT TOURER",
+        "gammeId": "",
+        "gammeName": "NOUVELLE INSIGNIA",
+        "visual": "G10_V18_NOUVELLE_INSIGNA_NOUVELLE_INSIGNA_SPORT_TOURER.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "insigna.png",
+        "brochureName": "INSIGNIA",
+        "brochureWallpaper": "INSIGNA_Opel_Insignia_GS_Exterior_21x9_ins18_e01_002.jpg",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-insignia/sports-tourer/points-forts.html",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0J_35/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "VIVARO",
+        "gammeId": "",
+        "gammeName": "VIVARO",
+        "visual": "G11_V19_VIVARO_VIVARO_COMBI.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Archiv_Vivaro_18.0_Long-F.pdf",
+        "brochureQrCode": "archiv_vivaro.png",
+        "brochureName": "VIVARO",
+        "brochureWallpaper": "VIVARO_vi16_e03_703.jpg",
+        "vehicleIframeUrl": "",
+        "accesoriesIframeUrl": "",
+        "configuratorIframeUrl": "",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03480",
+        "name": "VIVARO COMBI",
+        "gammeId": "",
+        "gammeName": "VIVARO",
+        "visual": "G11_V19_VIVARO_VIVARO_COMBI.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-vivaro/combi/Points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Vivaro_B",
+        "configuratorIframeUrl": "",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f03481",
+        "name": "ZAFIRA",
+        "gammeId": "",
+        "gammeName": "ZAFIRA",
+        "visual": "G12_V20_ZAFIRA_ZAFIRA.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "Zafira_18.0_Long-F28juin_ok.pdf",
+        "brochureQrCode": "zafira.png",
+        "brochureName": "ZAFIRA",
+        "brochureWallpaper": "ZAFIRA_Opel_Zafira_Exterior_Engines_21x9_za19_e03_006.jpg",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/zafira/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Nouveau_Zafira",
+        "configuratorIframeUrl": "FR_fr/resp-vc/B2C/0Q_75/2019A/all/",
+        "videos": []
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "MERIVA",
+        "gammeId": "",
+        "gammeName": "MERIVA",
+        "visual": "G22_V25_Opel_Meriva_MY17_288x161_mrm_2.png",
+        "equipments": {
+            "inside": [],
+            "outside": []
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "",
+        "accesoriesIframeUrl": "https://www.opel-accessories.com/opel_aoc/fr-FR/Meriva",
+        "configuratorIframeUrl": "",
+        "videos": []
+    }
+]

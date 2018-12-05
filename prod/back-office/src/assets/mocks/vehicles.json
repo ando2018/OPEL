@@ -1,0 +1,1425 @@
+[
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "INSIGNIA 1",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services",
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services",
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services",
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services",
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons",
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "",
+        "brochureQrCode": "",
+        "brochureName": "",
+        "brochureWallpaper": "",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347g",
+        "name": "INSIGNIA2",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "INSIGNIA 1",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "assets/img/insigna-qrcode.png",
+        "brochureName": "TEST",
+        "brochureWallpaper": "wallpaper.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347g",
+        "name": "INSIGNIA2",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "INSIGNIA 1",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "assets/img/insigna-qrcode.png",
+        "brochureName": "TEST",
+        "brochureWallpaper": "wallpaper.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347g",
+        "name": "INSIGNIA2",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "INSIGNIA 1",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "assets/img/insigna-qrcode.png",
+        "brochureName": "TEST",
+        "brochureWallpaper": "wallpaper.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347g",
+        "name": "INSIGNIA2",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "INSIGNIA 1",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "assets/img/insigna-qrcode.png",
+        "brochureName": "TEST",
+        "brochureWallpaper": "wallpaper.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347g",
+        "name": "INSIGNIA2",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "INSIGNIA 1",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "assets/img/insigna-qrcode.png",
+        "brochureName": "TEST",
+        "brochureWallpaper": "wallpaper.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347g",
+        "name": "INSIGNIA2",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "INSIGNIA 1",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "assets/img/insigna-qrcode.png",
+        "brochureName": "TEST",
+        "brochureWallpaper": "wallpaper.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347g",
+        "name": "INSIGNIA2",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347f",
+        "name": "INSIGNIA 1",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "assets/img/insigna-qrcode.png",
+        "brochureName": "TEST",
+        "brochureWallpaper": "wallpaper.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "title": "Musique & Radio",
+                "fileName": "video.mp4"
+            },
+            {
+                "title": "Téléphone",
+                "fileName": "video.mp4"
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347g",
+        "name": "INSIGNIA2",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5b24cd0c41cc840019f0347h",
+        "name": "INSIGNIA3",
+        "gammeId": "5b436e2bb879982a0c96e752",
+        "visual": "G1_V1_ADAM_ADAM.png",
+        "equipments": {
+            "inside": [
+                "Climatisation automatique bi-zone",
+                "Ordinateur de bord",
+                "Accoudoir central AV",
+                "Clef Opel main libre",
+                "Vitres électriques AR à impulsion avec dispositif anti-pincement",
+                "Volant cuir multifonction",
+                "Régulateur limitateur de vitesse",
+                "<b>OnStar avec point d'accès Wi-Fi 4G</b> : votre assistant personnel pour la connectivité et les services"
+            ],
+            "outside": [
+                "<b>Caméra Opel Eye</b> avec avertisseur de distance, alerte anti-collision, avertissement de changement de voies intempestifs et detection piétons"
+            ]
+        },
+        "brochureFile": "Insignia_18.0_Main-F.pdf",
+        "brochureQrCode": "adam.png",
+        "vehicleIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/points-forts.html",
+        "accesoriesIframeUrl": "https://www.opel.fr/opel_aoc/fr-FR/ADAM",
+        "configuratorIframeUrl": "https://www.opel.fr/vehicules/gamme-adam/adam/",
+        "videos": [
+            {
+                "name": "Radio R4.0",
+                "videos": [
+                    {
+                        "title": "Musique & Radio",
+                        "fileName": "video.mp4"
+                    },
+                    {
+                        "title": "Téléphone",
+                        "fileName": "video.mp4"
+                    }
+                ]
+            }
+        ]
+    }
+]

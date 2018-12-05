@@ -1,0 +1,16 @@
+<div class="title-model">Modèles
+    <button class="ajout" routerLink="/admin/vehicles/detail/{{vehicleId}}/models/new" title="Ajouter modele">+</button>
+</div>
+<ul>
+    <li *ngFor="let model of models; let i = index" [class.selected]="model._id === selectedModel?._id">
+        <div class="model-name" (click)="goToDetail(model)">{{ model.name }} </div>
+        <div class="option">
+            <a (click)="goToEdit(model)">
+                <img src="assets\icons\edit.png">
+            </a>
+            <a (click)="goToDelete(i)">
+                <img src="assets\icons\suppr.png">
+            </a>
+        </div>
+    </li>
+</ul>

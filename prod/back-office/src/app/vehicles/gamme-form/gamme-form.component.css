@@ -1,0 +1,28 @@
+.form input {
+    width: 90%;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 5px #F7D900 solid;
+    padding: 5px 20px;
+    font-family: 'opel sans condensed'
+}
+
+button{
+    background: #F7D900;
+    border: none;
+    font-size: 20px;
+    height: 38px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.error {
+    border-bottom: solid 4px orangered !important;
+}
+
+button:hover,
+.button-disabled {
+    background: #ccc;
+}

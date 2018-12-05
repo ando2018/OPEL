@@ -1,0 +1,25 @@
+h2 {
+    margin: 0 0 28px;
+}
+.txt-confirmation {
+    text-align: center;
+    font-size: 18px;
+}
+.cnt-button{
+    padding: 30px 0 10px;
+    display: flex;
+    justify-content: center;
+}
+button {
+    background: #F7D900;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    height: 38px;
+    width: 120px;
+    margin: 0 15px;
+}
+
+.arrow::before{
+    left:25px;
+}

@@ -1,0 +1,22 @@
+<div class="container-video">
+    <ul class="list_video">
+        <li *ngFor="let category of categories" [ngClass]="{
+            'category-col-1': category.vehicles.length === 1,
+            'category-col-2': category.vehicles.length === 2,
+            'category-col-3': category.vehicles.length === 3,
+            'category-col-4': category.vehicles.length === 4,
+            'category-col-5': category.vehicles.length === 5,
+            'category-col-6': category.vehicles.length === 6
+        }">
+            <h4>{{category.name }}</h4>
+            <div class="list-cat-vehicl">
+                <div class="image-container" *ngFor="let vehicle of category.vehicles" (click)="goToBrochure(vehicle)">
+                    <div class="image">
+                        <img [src]="vehicle.visual" [alt]="vehicle.game" />
+                    </div>
+                    <h4 *ngIf="category.vehicles.length > 1 || category.name !== vehicle.brochureName">{{vehicle.brochureName}}</h4>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

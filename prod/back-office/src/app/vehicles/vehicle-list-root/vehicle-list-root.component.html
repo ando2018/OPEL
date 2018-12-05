@@ -1,0 +1,7 @@
+<div class="container">
+    <app-vehicle-filter [gammes]="gammes" (gammeSelected)="setSelectedGamme($event)" (newGamme)="openGammeForm($event)"></app-vehicle-filter>
+    <app-vehicle-list [gamme]="selectedGamme" [vehicles]="vehicles" (deleteVehicle)="openModalConfirmVehicle($event)" (editGamme)="openGammeForm($event)"></app-vehicle-list>
+    <ngx-smart-modal [identifier]="gammeFormModalId">
+        <app-gamme-form (closeForm)="closeGammeForm($event)" [gamme]="selectedGamme" [mode]="gammeFormMode"></app-gamme-form>
+    </ngx-smart-modal>
+</div>

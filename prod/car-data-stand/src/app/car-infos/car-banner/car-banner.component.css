@@ -1,0 +1,80 @@
+.container {
+    width: 100%;
+    min-height: 100px;
+    position: fixed;
+    top: 510px;
+}
+
+.info-g {
+    display: flex;
+    padding: 25px 0 25px 35px;
+    justify-content: space-between;
+}
+
+.marque {
+    width: 55%;
+}
+
+.price {
+    width: 480px;
+    height: 175px;
+    background: #f7d900;
+    padding: 0px 20px 20px 0;
+    text-align: right;
+    cursor: pointer;
+}
+
+.marque span {
+    display: block;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 30px 0;
+}
+
+.type {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 55px;
+    font-family: 'Opel Sans Condensed ExtraBold';
+}
+
+.config {
+    font-size: 40px;
+    padding: 10px 0 0 0;
+}
+
+.value {
+    display: block;
+    font-family: 'Opel Sans Condensed ExtraBold';
+    font-size: 121px;
+    font-weight: 800;
+    float: left;
+    margin-top: 0px;
+    width: 80%;
+    padding-right: 10px;
+}
+
+.unity {
+    display: block;
+    line-height: 40px;
+    font-size: 45px;
+    font-weight: 600;
+    float: left;
+    margin-top: 25px;
+    width: 20%;
+    text-align: left;
+    font-family: 'Opel Sans Condensed';
+    width: 90px;
+    height: 101px;
+    background: url('/assets/img/euro.png');
+}
+
+.text {
+    display: block;
+    font-size: 26px;
+    width: 100%;
+    float: left;
+    margin-top: -20px;
+}

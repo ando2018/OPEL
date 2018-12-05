@@ -1,0 +1,51 @@
+.container {
+    width: 1080px;
+    height: auto;
+    padding: 35px 30px;
+    height: 961px;
+    position: fixed;
+   /* top: 859px;*/
+    overflow-y: auto !important;
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+h2 {
+    display: table;
+}
+
+.technical img {
+    margin: 20px 0;
+}
+
+.list_img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.list_img li {
+    width: 100%;
+}
+
+.list li {
+    width: 100%;
+    display: flex;
+}
+
+.list span {
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.right {
+    width: 39.5%;
+    text-align: right;
+}
+
+.left {
+    width: 100%;
+    text-align: left;
+}

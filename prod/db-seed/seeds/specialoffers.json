@@ -1,0 +1,9 @@
+[
+    {
+        "offers": [
+            { "title": "CORSA", "months": ["JUIN", "AOUT", "SEPTEMBER"], "file": "corsa.png" },
+            { "title": "SUV", "months": ["AOUT", "SEPTEMBER"], "file": "suv.png" }
+        ],
+        "legalNotice": "legal Notice"
+    }
+]

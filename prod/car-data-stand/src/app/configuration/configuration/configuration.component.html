@@ -1,0 +1,92 @@
+<div class="container">
+    <div class="logo">
+        <img routerLink="/stand" src="assets\img\logo.png">
+    </div>
+    <h1>Configuration</h1>
+    <div class="configuration-section" *ngFor="let step of steps">
+        <div class="configuration-title" (click)="toggle(step.number, !step.collapsed)">
+            <h2 [class.active]="!step.collapsed">{{ step.valid ? title(step.number) : step.title }}</h2>
+            <span *ngIf="step.collapsed">
+                <img src="\assets\img\leche_bas.svg">
+            </span>
+            <span *ngIf="!step.collapsed">
+                <img src="\assets\img\fleche_haut.svg">
+            </span>
+        </div>
+
+        <div class="section-body" *ngIf="!step.collapsed">
+
+            <div *ngIf="step.number === 1">
+                <div *ngFor="let serie of series" class="category">
+                    <h3>{{ serie.name }}</h3>
+                    <div *ngFor="let category of serie.categories" (click)="selectCategory(category, step.number + 1)" class="category-thumbnail"
+                        [class.selected]="category.name === configuration.name">
+                        <img [src]="category.visual">
+                        <h4>{{ category.name }}</h4>
+                        <p>A partir de XXX &euro;</p>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="step.number === 2">
+                <div *ngIf="selectedCategory" class="category">
+                    <div *ngFor="let model of availableModels" (click)="selectModel(model, step.number + 1)" class="model">
+                        <h4>{{ model }}</h4>
+                        <hr>
+                    </div>
+                </div>
+
+                <div *ngIf="!selectedCategory" class="consigne">
+                    Veuillez sélectionner une catégorie.
+                </div>
+            </div>
+
+            <div *ngIf="step.number === 3">
+                Choix des options comprises (Non spécifié)
+
+                <button (click)="selectOptions(step.number + 1)">Passer</button>
+            </div>
+
+            <div *ngIf="step.number === 4">
+                <div *ngIf="selectedModel" class="main">
+                    <div>
+                        <h5>Prix catalogue</h5>
+                        <p>avec options</p>
+                    </div>
+
+                    <div>
+                        <h5>Prix affiché</h5>
+                        <p>avec options</p>
+                    </div>
+                </div>
+
+                <div *ngIf="selectedModel" class="main form">
+                    <div>{{ shownPrice | number:'2.0-0' }} € TTC</div>
+                    <div>
+                        <input type="text" [(ngModel)]="price"> €TTC
+                        <input type="submit" value="Valider" (click)="updatePrice()">
+                    </div>
+                </div>
+
+                <div *ngIf="!selectedModel" class="consigne">
+                    Veuillez sélectionner un modèle.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="valid">
+        <button (click)="saveConfigs()" *ngIf="showValidate">Valider la configuration</button>
+    </div>
+
+    <div class="footer">
+        <div class="disconnect">
+            <a (click)="logout()">
+                <span class="lock">
+                    <img src="assets\img\lock.png">
+                </span>
+            </a>
+        </div>
+    </div>
+</div>

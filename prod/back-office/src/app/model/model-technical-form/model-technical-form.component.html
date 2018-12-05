@@ -1,0 +1,110 @@
+<div>
+    <form class="form" [formGroup]="form" (submit)="formValidation() && form.valid && saveTechnicals()">
+
+        <fieldset formGroupName="externalDimensions">
+            <legend>Dimensions extérieures</legend>
+
+            <label for="empattement" class="required">Schema</label>
+            <br>
+            <div *ngIf="!schemaUrl" class="no-picture" [class.visualerror]="isRequired(form.get('externalDimensions').get('schema'))"></div>
+            <div *ngIf="schemaUrl" class="picture">
+                <img [src]="schemaUrl" />
+            </div>
+            <br>
+            <label class="cnt-button" for="file" class="btn arrow">{{ schemaUrl ? 'Modifier' : 'Ajouter' }}</label>
+            <input id="file" style="visibility:hidden;" type="file" (change)="handleFileInput($event.target.files)" />
+
+            <label for="empattement" class="required">Empattement</label>
+            <small class="label-error" *ngIf="isRequired(form.get('externalDimensions').get('empattement'))">
+                <p *ngIf="form.get('externalDimensions').get('empattement').errors.required">(requis)</p>
+            </small>
+            <input formControlName="empattement" [class.error]="isRequired(form.get('externalDimensions').get('empattement'))" type="text"
+            />
+            <br>
+            <label for="totalLength" class="required">Longueur totale</label>
+            <small class="label-error" *ngIf="isRequired(form.get('externalDimensions').get('totalLength'))">
+                <p *ngIf="form.get('externalDimensions').get('totalLength').errors.required">(requis)</p>
+            </small>
+            <input formControlName="totalLength" [class.error]="isRequired(form.get('externalDimensions').get('totalLength'))" type="text"
+            />
+            <br>
+            <label for="emptyHeight" class="required">Hauteur à vide</label>
+            <small class="label-error" *ngIf="isRequired(form.get('externalDimensions').get('emptyHeight'))">
+                <p *ngIf="form.get('externalDimensions').get('emptyHeight').errors.required">(requis)</p>
+            </small>
+            <input formControlName="emptyHeight" [class.error]="isRequired(form.get('externalDimensions').get('emptyHeight'))" type="text"
+            />
+            <br>
+            <label for="widthWithMirror" class="required">Largeur avec rétroviseurs rabattus(mm)</label>
+            <small class="label-error" *ngIf="isRequired(form.get('externalDimensions').get('widthWithMirror'))">
+                <p *ngIf="form.get('externalDimensions').get('widthWithMirror').errors.required">(requis)</p>
+            </small>
+            <input formControlName="widthWithMirror" [class.error]="isRequired(form.get('externalDimensions').get('widthWithMirror'))"
+                type="text" />
+            <br>
+            <label for="widthWithoutMirror" class="required">Largeur sans rétroviseurs rabattus(mm)</label>
+            <small class="label-error" *ngIf="isRequired(form.get('externalDimensions').get('widthWithoutMirror'))">
+                <p *ngIf="form.get('externalDimensions').get('widthWithoutMirror').errors.required">(requis)</p>
+            </small>
+            <input formControlName="widthWithoutMirror" [class.error]="isRequired(form.get('externalDimensions').get('widthWithoutMirror'))"
+                type="text" />
+            <br>
+            <label for="turningRadius" class="required">Rayon de braquage (entre trottoirs / murs) (m)</label>
+            <small class="label-error" *ngIf="isRequired(form.get('externalDimensions').get('turningRadius'))">
+                <p *ngIf="form.get('externalDimensions').get('turningRadius').errors.required">(requis)</p>
+            </small>
+            <input formControlName="turningRadius" [class.error]="isRequired(form.get('externalDimensions').get('turningRadius'))" type="text"
+            />
+        </fieldset>
+
+        <fieldset formGroupName="internalDimensions">
+            <legend>Dimensions intérieures</legend>
+            <label for="loadingVolume" class="required">Volume de chargemenent(méthode de mesure ECIE)(I)</label>
+            <small class="label-error" *ngIf="isRequired(form.get('internalDimensions').get('loadingVolume'))">
+                <p *ngIf="form.get('internalDimensions').get('loadingVolume').errors.required">(requis)</p>
+            </small>
+            <input formControlName="loadingVolume" [class.error]="isRequired(form.get('internalDimensions').get('loadingVolume'))" type="text"
+            />
+        </fieldset>
+
+        <fieldset formGroupName="weightLoad">
+            <legend>Poids et charges</legend>
+            <label for="weight" class="required">Poids du véhicule</label>
+            <small class="label-error" *ngIf="isRequired(form.get('weightLoad').get('weight'))">
+                <p *ngIf="form.get('weightLoad').get('weight').errors.required">(requis)</p>
+            </small>
+            <input formControlName="weight" [class.error]="isRequired(form.get('weightLoad').get('weight'))" type="text" />
+            <br>
+            <label for="tank" class="required">Réservoir</label>
+            <small class="label-error" *ngIf="isRequired(form.get('weightLoad').get('tank'))">
+                <p *ngIf="form.get('weightLoad').get('tank').errors.required">(requis)</p>
+            </small>
+            <input formControlName="tank" [class.error]="isRequired(form.get('weightLoad').get('tank'))" type="text" />
+            <br>
+            <label for="maxWeightBrakedTrailer" class="required">Poids maxi remorque freiné(paliers de 12%)</label>
+            <small class="label-error" *ngIf="isRequired(form.get('weightLoad').get('maxWeightBrakedTrailer'))">
+                <p *ngIf="form.get('weightLoad').get('maxWeightBrakedTrailer').errors.required">(requis)</p>
+            </small>
+            <input formControlName="maxWeightBrakedTrailer" [class.error]="isRequired(form.get('weightLoad').get('maxWeightBrakedTrailer'))"
+                type="text" />
+            <br>
+            <label for="maxWeightNoBrakedTrailer" class="required">Poids maxi remorque non freiné(kg)</label>
+            <small class="label-error" *ngIf="isRequired(form.get('weightLoad').get('maxWeightNoBrakedTrailer'))">
+                <p *ngIf="form.get('weightLoad').get('maxWeightNoBrakedTrailer').errors.required">(requis)</p>
+            </small>
+            <input formControlName="maxWeightNoBrakedTrailer" [class.error]="isRequired(form.get('weightLoad').get('maxWeightNoBrakedTrailer'))"
+                type="text" />
+            <br>
+            <label for="totalWeightAllowed" class="required">Poids total autorisé(kg)</label>
+            <small class="label-error" *ngIf="isRequired(form.get('weightLoad').get('totalWeightAllowed'))">
+                <p *ngIf="form.get('weightLoad').get('totalWeightAllowed').errors.required">(requis)</p>
+            </small>
+            <input formControlName="totalWeightAllowed" [class.error]="isRequired(form.get('weightLoad').get('totalWeightAllowed'))"
+                type="text" />
+            <br>
+        </fieldset>
+        <div class="cnt-button btn-right">
+            <button class="arrow" type="submit" [class.button-disabled]="!this.form.valid">Sauver</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,14 @@
+<div class="container">
+    <app-loader *ngIf="loading"></app-loader>
+
+    <div class="option" *ngIf="!loading">
+        <h2>Options</h2>
+        <ul class="list" *ngIf="carInfos">
+            <!--<li>
+                <span class="bold">OnStar :</span>
+                assistant personnel pour la connectivité et les svc.
+            </li>-->
+            <li *ngFor="let option of carInfos.options">{{ option }}</li>
+        </ul>
+    </div>
+</div>

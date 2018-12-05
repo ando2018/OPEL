@@ -1,0 +1,36 @@
+<div>
+    <h2>{{modelName || 'NOUVEAU MODÈLE' }}</h2>
+    <div class="nav-model-detail">
+        <ul>
+            <li>
+                <a [routerLink]="modelIsCreated ? 'home' : null" routerLinkActive="menu-active">
+                    Modèle
+                </a>
+            </li>
+            <li>
+                <a routerLink="options" [class.disabled]="!modelIsCreated" routerLinkActive="menu-active">
+                    Options
+                </a>
+            </li>
+            <li>
+                <a routerLink="technicals" [class.disabled]="!modelIsCreated" routerLinkActive="menu-active">
+                    Données techniques
+                </a>
+            </li>
+            <li>
+                <a routerLink="co2-consumption" [class.disabled]="!modelIsCreated" routerLinkActive="menu-active">
+                    Consommation CO2
+                </a>
+            </li>
+            <li>
+                <a routerLink="prices" [class.disabled]="!modelIsCreated" routerLinkActive="menu-active">
+                    Détail prix
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="content-model-detail">
+        <router-outlet></router-outlet>
+    </div>
+
+</div>

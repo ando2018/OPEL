@@ -1,0 +1,10 @@
+<div>
+    <div class="cnt-models">
+        <div class="left">
+            <app-model-list (deleteModel)="openModalConfirmModel($event)" [models]="models"></app-model-list>
+        </div>
+        <div class="right">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

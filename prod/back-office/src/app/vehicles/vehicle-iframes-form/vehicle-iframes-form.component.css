@@ -1,0 +1,60 @@
+.error {
+    border-bottom: solid 4px orangered !important;
+}
+
+.error-messages {
+    color: orangered;
+}
+
+.error-messages > p.error-message {
+    line-height: 25px;
+}
+
+.form{
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.form label{
+    min-width: 130px;
+}
+
+.form input {
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    border: none;
+    border-bottom: 5px #F7D900 solid;
+    padding: 5px 20px;
+    font-family: 'opel sans condensed';
+    background: none;
+}
+
+.form label{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+
+button{
+    background: #F7D900;
+    border: none;
+    font-size: 20px;
+    height: 38px;
+    width: 120px;
+}
+
+button:hover,
+.button-disabled {
+    background: #ccc;
+}
+
+.label-error{
+    color: orangered;
+}
+
+.msg-error{
+    color: orangered;
+}

@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="vehicule-menu">
+        <ul>
+            <li routerLinkActive="active">
+                <a [routerLink]="vehicleIsCreated ? 'vehicle' : null">
+                    Véhicule
+                </a>
+            </li>
+            <li routerLinkActive="active">
+                <a routerLink="brochures" [class.disabled]="!vehicleIsCreated">
+                    Brochure
+                </a>
+            </li>
+            <li routerLinkActive="active">
+                <a routerLink="videos" [class.disabled]="!vehicleIsCreated">
+                    Vidéos
+                </a>
+            </li>
+            <li routerLinkActive="active">
+                <a routerLink="iframes" [class.disabled]="!vehicleIsCreated">
+                    Iframes
+                </a>
+            </li>
+            <li routerLinkActive="active">
+                <a [routerLink]="getModelRoute()" [class.disabled]="!vehicleIsCreated">
+                    Modèles
+                </a>
+            </li>
+        </ul>
+        <div>
+            <button class="retour" (click)="goToList()">Retour</button>
+        </div>
+    </div>
+    <div class="content-tab-vehicule">
+        <router-outlet></router-outlet>
+    </div>
+    <div style="clear:both"></div>
+</div>
